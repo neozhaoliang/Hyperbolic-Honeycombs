@@ -2,6 +2,12 @@
 
 This project will contain about 6~7 programs that visualize hyperbolic Coxeter groups of rank 4/5 and level 1/2/3. Currently 3 programs are published here. We are also planning a paper to explain the math. The curious users may refer to Hao's Ph.D thesis (pdf contained in this repo) for some background knowledge on ball packings and hyperbolic geometry.
 
+> **Note**: the rendering parameters in the code have been set to a moderate level, to render high quality images you may need to tweak with the following tabs on the right:
+>
+> + MaxRaySteps
+> + FudgeFactor
+> + Uncomment the `#define USE_IQ_CLOUDS` and `#define KN_VOLUMETRIC` in the header
+
 ## 3D hyperbolic honeycombs by Coxeter groups of rank 4 and level 1
 
 
