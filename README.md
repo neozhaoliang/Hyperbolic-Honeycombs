@@ -1,3 +1,5 @@
+> **Prerequisite**: You need to install [Fragmentarium](https://github.com/Syntopia/Fragmentarium) and run the .frag code in fragmentarium.
+
 ## 3D hyperbolic honeycombs by Coxeter groups of rank 4 and level 1
 
 
