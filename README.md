@@ -24,3 +24,4 @@ This project will contain about 6~7 programs that visualize hyperbolic Coxeter g
 
 + [Chen Hao](https://twitter.com/Chen_Hao)
 + [Zhao Liang](https://twitter.com/neozhaoliang)
++ [Abdelaziz Nait Merzouk](https://twitter.com/FfKnighty)
