@@ -209,7 +209,6 @@ void init() {
 
 
 float map(inout vec3 p, inout float scale, inout vec4 orb) {
-    int Iterations = 200;
     for (int i = 0; i < Iterations; i++) {
         bool cond = true;
         for (int k = 0; k < 5; k++) {
