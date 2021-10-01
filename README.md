@@ -1,6 +1,6 @@
 > **Prerequisite**: You need to install [Fragmentarium](https://github.com/Syntopia/Fragmentarium) and run the .frag code in fragmentarium.
 
-This project will contain about 6~7 programs that visualize hyperbolic Coxeter groups of rank 4/5 and level 1/2/3. Currently 3 programs are published here. We are also planning a paper to explain the math. The curious users may refer to Hao's Ph.D thesis (pdf contained in this repo) for some background knowledge on ball packings and hyperbolic geometry.
+This project will contain about 6~7 programs that visualize hyperbolic Coxeter groups of rank 4/5 and level 1/2/3. Currently 3 programs are published here. The curious users may refer to [Hao and Labbé's paper](https://arxiv.org/abs/1310.8608) for the math between hyperbolic geometry and ball packings.
 
 > **Note**: the rendering parameters in the code have been set to a moderate level, to render high quality images you may need to tweak with the following tabs on the right:
 >
