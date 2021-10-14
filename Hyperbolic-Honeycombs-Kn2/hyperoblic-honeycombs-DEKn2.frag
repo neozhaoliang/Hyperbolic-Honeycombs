@@ -1,12 +1,9 @@
-#version 130
 #define providesInit
 #define providesColor
 #define KN_VOLUMETRIC
 #define USE_EIFFIE_SHADOW
 #define MULTI_SAMPLE_AO
-#include "MathUtils.frag"
-#include "MatrixInverse.frag"
-#include "DE-Kn2.frag"
+#include "DE-Kn2cr11.frag"
 
 uniform vec3 Eye;
 uniform vec3 Target;
