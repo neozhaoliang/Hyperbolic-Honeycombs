@@ -27,6 +27,12 @@ This project will contain about 6~7 programs that visualize hyperbolic Coxeter g
 
 <img src="https://user-images.githubusercontent.com/23307174/136644057-cf42394a-a407-4525-8b8f-e2678926458d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644066-60520470-9bc0-4e48-b7c8-dc32dad9b0c8.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644075-e23ede99-e935-423c-a8ef-e980606b8a1e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644079-e3dd2b26-228d-41a5-93e6-f66e228a618d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644083-f671fc91-84ac-4d16-a235-095397e11266.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644087-f3da996b-429e-4b31-9586-2deef957c25f.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136649503-9611cb87-bc68-4552-9bf6-6f9a71531029.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136649676-8a58050d-2312-4662-8f38-83d4469ddfe6.png" width="45%"></img> 
 
+### Circle packings from platonic solids
+
+In order (left to right, top to bottom): tetrahedron, cube, octahedron, dodecahedron, icosahedron.
+
+<img src="https://user-images.githubusercontent.com/8331208/137447759-f7c71794-1a45-4c07-b96e-0a46f176c0f3.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/8331208/137447819-a03b7915-4bac-409a-abe6-c8fa349f9ecf.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/8331208/137447894-3c032241-52ec-4e57-a331-885c7bac551f.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/8331208/137447957-71a1b37a-8bae-4b95-9f85-6235ae58f514.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/8331208/137447648-a3f7b426-d534-4abf-b5f9-061233d468cb.png" width="45%"></img> 
+
 ## 2D slices of 3D ball packings (rank = 5, level = 2)
 
 [Shadertoy live](https://www.shadertoy.com/view/NdK3zy)
