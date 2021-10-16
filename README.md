@@ -15,7 +15,7 @@ This project will contain about 6~7 programs that visualize hyperbolic Coxeter g
 
 From left to right: compact tiling, paracompact tiling (with ideal vertices on the boundary), non-compact tiling (with hyperideal vertices outside the space)
 
-<img src="https://user-images.githubusercontent.com/23307174/137338871-2a885fe3-1574-4e76-a2f4-a118d06ab351.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137339107-a63d5ec2-20cb-4798-a58d-1cb094dbe47c.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137456425-2e291049-188e-41ba-83a1-d009ca57f37d.jpg" width="30%"></img> 
+<img src="https://user-images.githubusercontent.com/23307174/137573698-507e1abc-bb23-4a9c-b5ac-0a4bb12e6527.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137573695-eb58bf45-dbac-499e-a04e-c74a967f0a42.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137573687-7cdfa82c-6129-4599-bc61-ec98f0c838d2.png" width="30%"></img> 
 
 ## 3D hyperbolic honeycombs (rank = 4, level = 1, 2)
 
