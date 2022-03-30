@@ -29,6 +29,13 @@ From left to right: compact tiling, paracompact tiling (with ideal vertices on t
 
 <img src="https://user-images.githubusercontent.com/23307174/136644057-cf42394a-a407-4525-8b8f-e2678926458d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644066-60520470-9bc0-4e48-b7c8-dc32dad9b0c8.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644075-e23ede99-e935-423c-a8ef-e980606b8a1e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644079-e3dd2b26-228d-41a5-93e6-f66e228a618d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644083-f671fc91-84ac-4d16-a235-095397e11266.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644087-f3da996b-429e-4b31-9586-2deef957c25f.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136649503-9611cb87-bc68-4552-9bf6-6f9a71531029.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136649676-8a58050d-2312-4662-8f38-83d4469ddfe6.png" width="45%"></img> 
 
+## 2D circles packings (rank = 4, level > 2)
+
+In this case the circles will overlap:
+
+<img src="https://user-images.githubusercontent.com/23307174/160799337-a02b5cb6-85ca-4499-abe1-9e1aebd89bb6.png" width="70%"></img> 
+
+
 ### Circle packings from platonic solids
 
 In order (left to right, top to bottom): tetrahedron, cube, octahedron, dodecahedron, icosahedron.
