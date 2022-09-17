@@ -9,7 +9,7 @@ This project contains several programs that visualize hyperbolic Coxeter groups 
 > + Uncomment the `#define USE_IQ_CLOUDS` and `#define KN_VOLUMETRIC` in the header
 
 
-## 2D hyperbolic tilings (rank = 3, level = 1)
+## 2D hyperbolic tilings (rank = 3, level = 1, 2)
 
 [Shadertoy live](https://www.shadertoy.com/view/7dcXDB)
 
