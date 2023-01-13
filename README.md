@@ -24,7 +24,9 @@ For level 1, the limit set is the whole boundary and there is no sphere packing.
 
 From left to right: compact tiling, paracompact tiling (with ideal vertices on the boundary), non-compact tiling (with hyperideal vertices outside the space)
 
-<img src="https://user-images.githubusercontent.com/23307174/137573698-507e1abc-bb23-4a9c-b5ac-0a4bb12e6527.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137573695-eb58bf45-dbac-499e-a04e-c74a967f0a42.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137573687-7cdfa82c-6129-4599-bc61-ec98f0c838d2.png" width="30%"></img> 
+<img src="https://user-images.githubusercontent.com/23307174/137573698-507e1abc-bb23-4a9c-b5ac-0a4bb12e6527.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137573695-eb58bf45-dbac-499e-a04e-c74a967f0a42.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137573687-7cdfa82c-6129-4599-bc61-ec98f0c838d2.png" width="30%"></img>
+
+The level 2 case (rightmost image above) looks less appealing, but you can see from it each cell (a triangle) intersects the ideal boundary at an arc, all these arcs pack the whole boundary. This also generalizes to 3D and 4D: if the group has level 2, each cell in the honeycomb intersect the boundary at a disk/sphere, and these disks/spheres pack the boundary (can be identified with the 2D plane or 3D space via stereo-graphics projection).
 
 ## 3D hyperbolic honeycombs (rank = 4, level = 1, 2)
 
