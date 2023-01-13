@@ -6,7 +6,12 @@ The level of a Coxeter group $G$ is the smallest non-negative integer $l$, such 
 
 Hence finite (spherical) and affine (Euclidean) Coxeter groups have level 0.
 
-This project contains several programs that visualize hyperbolic Coxeter groups of rank 4/5 and level 1/2/3. You can refer to [Chen and Labbé's paper](https://arxiv.org/abs/1310.8608) for the math between hyperbolic geometry and ball packings.
+This project contains several programs that visualize hyperbolic Coxeter groups of rank 3/4/5 and level 1/2/3 (with a few exceptions having level >3). To be concrete:
+
+1. Draw the tiling (hyperbolic honeycombs) inside the space. The space can be either the Poincaré ball model or the upper half space model.
+2. Draw the sphere packing on the ideal boundary. The ideal boundary is a sphere (in balll model) or an Euclidean plane (in upper half space model).
+
+For level 1, the limit set is the whole boundary and there is no sphere packing. For level 2, there is a dense sphere packing on the boundary (sphere don't intersect and they fill the boundary densely). For level >2, the spheres still fill the boundary but they will have intersections. You can refer to [Chen and Labbé's paper](https://arxiv.org/abs/1310.8608) for the math between hyperbolic geometry and ball packings.
 
 > **Note**: the rendering parameters in the code have been set to a moderate level, to render high quality images you may need to tweak with the following tabs on the right:
 >
