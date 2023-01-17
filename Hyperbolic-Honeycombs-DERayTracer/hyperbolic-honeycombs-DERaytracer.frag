@@ -1,3 +1,4 @@
+#version 330
 #define providesInit
 #define providesColor
 #define KN_VOLUMETRIC
