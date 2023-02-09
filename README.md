@@ -11,12 +11,6 @@ This project contains several programs that visualize hyperbolic Coxeter groups 
 
 For level 1, the limit set is the whole boundary and there is no sphere packing. For level 2, there is a dense sphere packing on the boundary (sphere don't intersect and they fill the boundary densely). For level >2, the spheres still fill the boundary but they will have intersections. You can refer to [Chen and Labbé's paper](https://arxiv.org/abs/1310.8608) for the math between hyperbolic geometry and ball packings.
 
-> **Note**: the rendering parameters in the code have been set to a moderate level, to render high quality images you may need to tweak with the following tabs on the right:
->
-> + MaxRaySteps
-> + FudgeFactor
-> + Uncomment the `#define USE_IQ_CLOUDS` and `#define KN_VOLUMETRIC` in the header
-
 
 ## 2D hyperbolic tilings (rank = 3, level = 1, 2)
 
@@ -33,20 +27,20 @@ The level 2 case (rightmost image above) looks less appealing, but you can see f
 (Images with Poincaré disks packing the boundary are of level 2)
 
 <img src="https://user-images.githubusercontent.com/23307174/131051442-8b0120cc-e9c0-4e4d-b0d1-f78b9617b091.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051401-d97b7836-fd49-48b2-826a-7cec3d9e5977.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051431-73d9a58c-4348-490c-bfb5-dcad80904b22.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051455-32b2f0fa-0ff2-4c8e-9abb-a17aa2087bf9.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051476-43bc562e-6d26-4a16-a368-87157d2af8ab.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051485-bdfc464b-fbc2-4844-be36-e91207c95ba7.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051505-4654aa98-ae38-49f1-b397-d38ea8de602f.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051509-2c29ca93-ff91-4a11-9aa5-5b7258b94e4e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051514-56d85ee1-f52e-455b-b6a9-02d710540f44.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051519-2a5db2a2-af77-4b07-a4ea-b9b38c82fd6b.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051528-5dfab8ad-cbd2-48a4-b114-b4e1bd195dfc.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051669-17a7ee93-cc9b-44c0-b176-b603f9ab3404.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/191715828-a935680c-d13f-4105-9fca-6e84a136f16f.jpeg" width="45%"></img>
-<img src="https://user-images.githubusercontent.com/23307174/131051679-55074bf4-9945-464b-985b-c4be053c473c.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137326046-8a239cab-6760-4cfc-8ed7-67bf80b0ba67.png" width="45%"></img> 
-<img src="https://user-images.githubusercontent.com/23307174/191716449-765efaea-b4ef-4cc5-879b-7ba285dca436.jpeg" width="45%"></img> 
+<img src="https://user-images.githubusercontent.com/23307174/131051679-55074bf4-9945-464b-985b-c4be053c473c.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137326046-8a239cab-6760-4cfc-8ed7-67bf80b0ba67.png" width="45%"></img>
+<img src="https://user-images.githubusercontent.com/23307174/191716449-765efaea-b4ef-4cc5-879b-7ba285dca436.jpeg" width="45%"></img>
 
 ## 2D circle packings (rank = 4, level = 2)
 
 [Shadertoy live](https://www.shadertoy.com/view/WdGBz3)
 
-<img src="https://user-images.githubusercontent.com/23307174/136644057-cf42394a-a407-4525-8b8f-e2678926458d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644066-60520470-9bc0-4e48-b7c8-dc32dad9b0c8.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644075-e23ede99-e935-423c-a8ef-e980606b8a1e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644079-e3dd2b26-228d-41a5-93e6-f66e228a618d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644083-f671fc91-84ac-4d16-a235-095397e11266.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644087-f3da996b-429e-4b31-9586-2deef957c25f.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136649503-9611cb87-bc68-4552-9bf6-6f9a71531029.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136649676-8a58050d-2312-4662-8f38-83d4469ddfe6.png" width="45%"></img> 
+<img src="https://user-images.githubusercontent.com/23307174/136644057-cf42394a-a407-4525-8b8f-e2678926458d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644066-60520470-9bc0-4e48-b7c8-dc32dad9b0c8.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644075-e23ede99-e935-423c-a8ef-e980606b8a1e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644079-e3dd2b26-228d-41a5-93e6-f66e228a618d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644083-f671fc91-84ac-4d16-a235-095397e11266.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644087-f3da996b-429e-4b31-9586-2deef957c25f.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136649503-9611cb87-bc68-4552-9bf6-6f9a71531029.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136649676-8a58050d-2312-4662-8f38-83d4469ddfe6.png" width="45%"></img>
 
 ## 2D circles packings (rank = 4, level > 2)
 
 In this case the circles will overlap:
 
-<img src="https://user-images.githubusercontent.com/23307174/160799337-a02b5cb6-85ca-4499-abe1-9e1aebd89bb6.png" width="70%"></img> 
+<img src="https://user-images.githubusercontent.com/23307174/160799337-a02b5cb6-85ca-4499-abe1-9e1aebd89bb6.png" width="70%"></img>
 
 
 ### Circle packings from platonic solids
@@ -55,7 +49,7 @@ In order (left to right, top to bottom): tetrahedron, cube, octahedron, dodecahe
 
 [Shadertoy Live](https://www.shadertoy.com/view/7dcXWs)
 
-<img src="https://user-images.githubusercontent.com/8331208/137447759-f7c71794-1a45-4c07-b96e-0a46f176c0f3.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/8331208/137447819-a03b7915-4bac-409a-abe6-c8fa349f9ecf.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/8331208/137447894-3c032241-52ec-4e57-a331-885c7bac551f.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/8331208/137447957-71a1b37a-8bae-4b95-9f85-6235ae58f514.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/8331208/137447648-a3f7b426-d534-4abf-b5f9-061233d468cb.png" width="45%"></img> 
+<img src="https://user-images.githubusercontent.com/8331208/137447759-f7c71794-1a45-4c07-b96e-0a46f176c0f3.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/8331208/137447819-a03b7915-4bac-409a-abe6-c8fa349f9ecf.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/8331208/137447894-3c032241-52ec-4e57-a331-885c7bac551f.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/8331208/137447957-71a1b37a-8bae-4b95-9f85-6235ae58f514.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/8331208/137447648-a3f7b426-d534-4abf-b5f9-061233d468cb.png" width="45%"></img>
 
 ### Non-reflective circle packings
 
@@ -73,7 +67,7 @@ Groups from [Mcleod's thesis](http://etheses.dur.ac.uk/7743/1/thesis31072013.pdf
 
 [Shadertoy live](https://www.shadertoy.com/view/NdK3zy)
 
-<img src="https://user-images.githubusercontent.com/23307174/134768877-17c234ac-9ca4-4db9-a8e0-1f10e25151eb.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768882-6d7dba22-8dd6-4d36-a43d-cd7760876c1d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768887-690e9973-0ecb-4533-bce5-1bbd206fea62.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768890-2b0ae7ab-608f-4c19-81bd-1eb7f48a5f38.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768892-f49fc79a-bd8d-41ab-99ee-e2ce127a2541.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768895-4dc758e7-155a-465e-a019-829e101a27da.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768897-463a0959-1868-4c53-b71a-18a3679831cb.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768900-52370daa-cf21-4fe5-b6c0-93798d240a10.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134841424-9f4bc005-9fc8-41b2-9df3-20408e66af78.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134841439-7e0bc918-cb34-4b53-912e-d62dd376fe8e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134841448-44da62f3-59ae-4640-8688-6a00b33ae714.jpeg" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134841453-b158c1bb-06de-4e18-ae34-0739504b2d50.jpeg" width="45%"></img> 
+<img src="https://user-images.githubusercontent.com/23307174/134768877-17c234ac-9ca4-4db9-a8e0-1f10e25151eb.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768882-6d7dba22-8dd6-4d36-a43d-cd7760876c1d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768887-690e9973-0ecb-4533-bce5-1bbd206fea62.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768890-2b0ae7ab-608f-4c19-81bd-1eb7f48a5f38.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768892-f49fc79a-bd8d-41ab-99ee-e2ce127a2541.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768895-4dc758e7-155a-465e-a019-829e101a27da.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768897-463a0959-1868-4c53-b71a-18a3679831cb.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768900-52370daa-cf21-4fe5-b6c0-93798d240a10.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134841424-9f4bc005-9fc8-41b2-9df3-20408e66af78.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134841439-7e0bc918-cb34-4b53-912e-d62dd376fe8e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134841448-44da62f3-59ae-4640-8688-6a00b33ae714.jpeg" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134841453-b158c1bb-06de-4e18-ae34-0739504b2d50.jpeg" width="45%"></img>
 
 ## 3D ball packings (rank = 5, level >= 2)
 
@@ -81,7 +75,7 @@ Top row: level 2 groups give dense ball packings of the unit ball.
 
 Second row: level > 2 groups have overlapping balls, they give fractal patterns if some of the balls are removed. Basically these are the fratals in the next section but moved to the Poincaré unit ball model.
 
-<img src="https://user-images.githubusercontent.com/23307174/137572582-76bdb60c-7835-4e64-aec2-7f6dee52881d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137572621-5f2fd253-1d66-491c-97d2-33d738f33013.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137572850-d7bf9bfa-c387-4f3f-9b6c-498ef425428e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137572851-5eba3051-d2da-47c6-8f70-a0623c93fb14.png" width="45%"></img> 
+<img src="https://user-images.githubusercontent.com/23307174/137572582-76bdb60c-7835-4e64-aec2-7f6dee52881d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137572621-5f2fd253-1d66-491c-97d2-33d738f33013.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137572850-d7bf9bfa-c387-4f3f-9b6c-498ef425428e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137572851-5eba3051-d2da-47c6-8f70-a0623c93fb14.png" width="45%"></img>
 
 ## Fractals from 3D ball clusters (rank = 5, level = 3)
 
