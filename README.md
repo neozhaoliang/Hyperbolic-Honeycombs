@@ -7,7 +7,7 @@ The level of a Coxeter group $G$ is the smallest non-negative integer $l$, such 
 This project contains several programs that visualize hyperbolic Coxeter groups of rank 3/4/5 and level 1/2/3 (with a few examples having levels >3). To be concrete:
 
 1. Draw the tiling (hyperbolic honeycombs) inside the space. The space can be either the Poincaré ball model or the upper half space model.
-2. Draw the sphere packing on the ideal boundary. The ideal boundary is a sphere (in balll model) or an Euclidean plane (in upper half space model). The complement of the packing is called the limit set.
+2. Draw the sphere packing on the ideal boundary. The ideal boundary is a sphere (in ball model) or an Euclidean plane (in upper half space model). The complement of the packing is called the limit set.
 
 For level 1, the limit set is the whole boundary and there is no sphere packing. For level 2, there is a dense sphere packing on the boundary (sphere don't intersect and they fill the boundary densely). For level >2, the spheres still fill the boundary but they will have intersections. You can refer to [Chen and Labbé's paper](https://arxiv.org/abs/1310.8608) for the math between hyperbolic geometry and ball packings.
 
