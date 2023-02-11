@@ -21,7 +21,7 @@ From left to right: compact tiling, paracompact tiling (with ideal vertices on t
 
 <img src="https://user-images.githubusercontent.com/23307174/137573698-507e1abc-bb23-4a9c-b5ac-0a4bb12e6527.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137573695-eb58bf45-dbac-499e-a04e-c74a967f0a42.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137573687-7cdfa82c-6129-4599-bc61-ec98f0c838d2.png" width="30%"></img>
 
-The second level case, shown in the rightmost image, appears less attractive. However, it can be observed that each cell, represented by a triangle, intersects the ideal boundary at an arc. These arcs collectively fill the entire boundary. This concept can also be extended to three-dimensional and four-dimensional spaces. If the group has level 2, each cell in the honeycomb will intersect the boundary at a disk or sphere, and these disks or spheres pack the entire boundary.
+The level 2 case, shown in the rightmost image, appears less attractive. However, it can be observed that each cell, represented by a triangle, intersects the ideal boundary at an arc. These arcs collectively fill the entire boundary. This concept can also be extended to three-dimensional and four-dimensional spaces. If the group has level 2, each cell in the honeycomb will intersect the boundary at a disk or sphere, and these disks or spheres pack the entire boundary.
 
 ## 3D hyperbolic honeycombs (rank = 4, level = 1, 2)
 
