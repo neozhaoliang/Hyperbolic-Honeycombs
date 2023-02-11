@@ -4,7 +4,7 @@ In this project, we examine [Coxeter groups](https://en.wikipedia.org/wiki/Coxet
 
 The level of a Coxeter group, $G$, is defined as the smallest non-negative integer $l$, such that after removing any $l$ vertices from the [Coxeter diagram](https://en.wikipedia.org/wiki/Coxeter%E2%80%93Dynkin_diagram) of $G$, the resulting diagram is either finite or affine. As a result, Coxeter groups that are finite (spherical) and affine (Euclidean) have a level of 0.
 
-This project showcases several programs that visualize hyperbolic Coxeter groups of varying ranks (3, 4, or 5) and levels (1, 2, or 3, with some examples of levels higher than 3).
+This project showcases several programs that visualize hyperbolic Coxeter groups of varying ranks 3/4/5 and levels 1/2/3 (with some examples of levels higher than 3).
 
 The programs have two main purposes:
 
