@@ -420,9 +420,9 @@ invPoint = 0.74737,0.87719
 
 #preset 433-334
 FOV = 0.4
-Eye = 8.41185,-4.58378,11.0765
-Target = -0.185318,-1.76319,-2.8022
-Up = -0.543931,0.191448,0.375846
+Eye = 3.38823,-2.11499,21.4433
+Target = 0.999337,-1.7885,5.05208
+Up = -0.000578027,0.999992,-0.00396608
 EquiRectangular = false
 FocalPlane = 0.7772
 Aperture = 0
@@ -445,7 +445,7 @@ AO = 0,0,0,0.7
 Specular = 0.4
 SpecularExp = 71.154
 SpotLight = 1,1,1,2.4
-SpotLightPos = 10,-1.2,10
+SpotLightPos = 10,10,3.7384
 SpotLightSize = 0
 CamLight = 1,1,1,0.43878
 CamLightMin = 0
