@@ -13,9 +13,9 @@ uniform float orbitDivisor; slider[0,300,2000]
 // so the pattern tiles the entire plane
 uniform bool moveVertexToInf; checkbox[false]
 // The label of edge CD must be finite
-uniform vec3 dihedral_A_BCD; slider[(1,1,2),(4,4,4),(10,10,10)]
+uniform vec3 dihedral_A_BCD; slider[(1,1,1),(4,4,4),(10,10,10)]
 // The triangle BCD must be hyperbolic
-uniform vec3 TriangleBCD; slider[(1,1,1),(4,4,4),(10,10,10)]
+uniform vec3 TriangleBCD; slider[(1,1,2),(4,4,4),(10,10,10)]
 uniform float edgeSize; slider[0.,0.005,0.05]
 uniform float edgeSize2; slider[0.,0.015,0.05]
 
