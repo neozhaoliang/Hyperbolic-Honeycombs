@@ -44,7 +44,7 @@ The level 2 case, shown in the rightmost image, appears less attractive. However
 [Shadertoy live](https://www.shadertoy.com/view/WdGBz3)
 
 <img src="https://user-images.githubusercontent.com/23307174/218310651-b8b2de42-e72f-4695-a398-30a1ff00ecdc.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/218310665-9ac60e78-9981-48e8-9097-08c421d92a67.png" width="45%"></img>
-
+<img src="https://user-images.githubusercontent.com/23307174/218777067-774d763c-7377-421b-8941-0f6c34d6ff3c.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/218777081-05e686bb-9f25-40dc-9b4d-755e93fdc0c0.png" width="45%"></img>
 <img src="https://user-images.githubusercontent.com/23307174/136644057-cf42394a-a407-4525-8b8f-e2678926458d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644066-60520470-9bc0-4e48-b7c8-dc32dad9b0c8.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644075-e23ede99-e935-423c-a8ef-e980606b8a1e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644079-e3dd2b26-228d-41a5-93e6-f66e228a618d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644083-f671fc91-84ac-4d16-a235-095397e11266.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136644087-f3da996b-429e-4b31-9586-2deef957c25f.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136649503-9611cb87-bc68-4552-9bf6-6f9a71531029.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/136649676-8a58050d-2312-4662-8f38-83d4469ddfe6.png" width="45%"></img>
 
 ## 2D circles packings (rank = 4, level > 2)
