@@ -49,7 +49,7 @@ The level 2 case, shown in the rightmost image, appears less attractive. However
 
 ## 2D circles packings (rank = 4, level > 2)
 
-In this case the circles will overlap:
+In this case, there will be overlapping circles:
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/23307174/219011578-75b156ad-cd2f-45b6-9231-91110a629595.png" width="70%"></img>
