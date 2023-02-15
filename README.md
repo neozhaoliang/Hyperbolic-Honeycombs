@@ -51,7 +51,9 @@ The level 2 case, shown in the rightmost image, appears less attractive. However
 
 In this case the circles will overlap:
 
-<img src="https://user-images.githubusercontent.com/23307174/160799337-a02b5cb6-85ca-4499-abe1-9e1aebd89bb6.png" width="70%"></img>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/23307174/219011578-75b156ad-cd2f-45b6-9231-91110a629595.png" width="70%"></img>
+</div>
 
 
 ### Circle packings from platonic solids
