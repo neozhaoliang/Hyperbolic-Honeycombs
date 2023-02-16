@@ -9,9 +9,9 @@ This project showcases several programs that visualize hyperbolic Coxeter groups
 The programs have two main purposes:
 
 1. To display the tiling of the hyperbolic honeycomb inside the space, which can be represented by either the Poincaré ball model or the upper half space model.
-2. To display the sphere packing on the ideal boundary, which is either a sphere in the ball model or a Euclidean plane in the upper half space model. The complement of this sphere packing is referred to as the limit set.
+2. To display the sphere packing on the ideal boundary. The ideal boundary is either a sphere in the ball model or a Euclidean plane in the upper half space model. The complement of this sphere packing is referred to as the limit set.
 
-For level 1, the limit set encompasses the entire boundary and there is no sphere packing. For level 2, there is a dense sphere packing on the boundary, meaning the spheres do not intersect and fill the boundary completely. In levels higher than 2, the spheres still fill the boundary, but they will have intersections. For further mathematical details, please refer to the paper by Chen and Labbé ([Chen and Labbé's paper](https://arxiv.org/abs/1310.8608)) on the connection between hyperbolic geometry and ball packings."
+For level 1, the limit set encompasses the entire boundary and there is no sphere packing. For level 2, there is a dense sphere packing on the boundary, meaning the spheres do not intersect and fill the boundary completely. In levels higher than 2, the spheres still fill the boundary, but they will have intersections. For further mathematical details, please refer to the paper by Chen and Labbé ([Chen and Labbé's paper](https://arxiv.org/abs/1310.8608)) on the connection between hyperbolic geometry and ball packings.
 
 ## 3D Euclidean tilings (rank = 4, level = 0)
 
