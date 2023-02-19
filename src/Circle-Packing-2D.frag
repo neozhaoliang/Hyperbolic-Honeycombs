@@ -10,20 +10,22 @@
 uniform int  Iterations; slider[1,200,1000]
 uniform float orbitDivisor; slider[0,300,2000]
 // Move a vertex of Euclidean type (if there is any) to infinity,
-// so the pattern tiles the entire plane
+// so the circles tiles the entire plane periodically
 uniform bool moveVertexToInf; checkbox[false]
 // The label of edge CD must be finite
 uniform vec3 dihedral_A_BCD; slider[(1,1,2),(4,4,4),(10,10,10)]
 // The triangle BCD must be hyperbolic
 uniform vec3 TriangleBCD; slider[(1,1,1),(4,4,4),(10,10,10)]
+// Control line width outside/inside the unit circle, respectively.
 uniform float edgeSize; slider[0.,0.005,0.05]
 uniform float edgeSize2; slider[0.,0.015,0.05]
-
+// This should usually be true, but if you want a periodically tiling,
+// this should be set to false
 uniform bool doInvert; checkbox[true];
 uniform vec2 invPoint; slider[(-1.0,-1.0),(0.75,0.75),(1.0,1.0)]
 
 
-#define inf        1.0
+#define inf                 1.0      // >1.0 for level 3 graphs
 #define L2(x)               dot(x, x)
 #define L2XY(x, y)          L2(x - y)
 #define Hyperbolic          -1.0
@@ -39,16 +41,14 @@ mat4 cartan;
 vec4 vertexType = vec4(1);
 
 // coordinates of a Euclidean vertex
-vec2 euclideanVertex;
+vec2 euclideanVertex = vec2(0);
 
-bool hasEuclideanVertex;
-
+bool hasEuclideanVertex = false;
 
 // compute cos(PI / x), for x = infiniy this is inf using Vinberg's notation
 float dihedral(float x) {
     return x == inf ? inf : cos(PI / x);
 }
-
 
 // compute the vertex type of each vertex.
 // for each vertex in the Coxeter diagram, its vertex type is determined by the triangle group G formed by
@@ -102,7 +102,6 @@ Ball from_sphere(vec2 cen, float r) {
 void invertBall(inout Ball B) {
     B.invert = !B.invert;
 }
-
 
 // try to reflect a point p to the positive half space bounded by a ball
 // if we are already in the positive half space, do nothing and return true,
@@ -163,7 +162,6 @@ float sdistanceToBall(vec2 p, Ball B) {
         return B.invert ? -k : k;
     }
 }
-
 
 void init() {
     Ball B0, B1, B2, B3;
@@ -293,8 +291,6 @@ void fold(inout vec2 p,
     }
 
 }
-
-
 
 // signed distance to unit ball and plane z=-1
 float sdSphere(vec3 p) { return length(p) - 1.0; }
@@ -483,4 +479,3 @@ invPoint = -0.69132,0.89068
 dihedral_A_BCD = 6,2,4
 TriangleBCD = 3,2,7
 #endpreset
-

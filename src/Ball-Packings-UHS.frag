@@ -14,8 +14,12 @@ uniform vec3 dihedralAngles0_234; slider[(1,1,1),(3,2,7),(20,20,20)]
 uniform vec3 dihedralAngles1_234; slider[(1,1,1),(3,2,7),(20,20,20)]
 uniform float dihedralAngle0_1; slider[1,4,20]
 uniform vec4 isRealBall; slider[(0,0,0,0),(1,1,0,0),(1,1,1,1)]
-uniform int Iterations; slider[1,30,50]
+uniform int Iterations; slider[1,30,500]
 uniform float DEcor; slider[0,1,1]
+
+
+#define inf           1.0
+#define L2(x)         dot(x, x)
 
 
 //infinite foldings-----------------------------------------------------------//
@@ -94,10 +98,6 @@ void fold333(inout vec2 p) {
     p.x -=1.;
 #undef S3
 }
-
-
-#define inf           1.0
-#define L2(x)         dot(x, x)
 
 const float s2 = sqrt(2.);
 const float s3 = sqrt(3.);
@@ -687,13 +687,11 @@ Iterations = 250
 
 
 #preset volcano-lake
-AutoFocus = false
 FOV = 0.685022
 Eye = 5.52166,-0.807811,2.62172
-Target = 1.11492,5.30969,-4.42175
-UpLock = false
+Target = 5.10595904,-0.127263602,2.01835614
 Up = 0,0,1
-AutoFocus = false
+EquiRectangular = false
 FocalPlane = 1
 Aperture = 0.003
 InFocusAWidth = 1
@@ -714,7 +712,15 @@ BloomIntensity = 0.4331
 BloomPow = 6.22093
 BloomTaps = 23
 BloomStrong = 3.57901
+LensFlare = false
+FlareIntensity = 0.25
+FlareSamples = 8
+FlareDispersal = 0.25
+FlareHaloWidth = 0.5
+FlareDistortion = 1
 DepthToAlpha = false
+ShowDepth = false
+DepthMagnitude = 1
 Detail = -4
 RefineSteps = 5
 FudgeFactor = 0.57407
@@ -732,7 +738,7 @@ AO_pointlight = 0.449594
 AoCorrect = 0
 Specular = 0.1
 SpecularExp = 84.21
-CamLight = 0.996078,0.996078,0.996078,0.3
+CamLight = 0.996078,0.996078,0.996078,0.5
 AmbiantLight = 0.972549,0.972549,0.972549,0.3
 Reflection = 0.478431,0.478431,0.478431
 ReflectionsNumber = 3
@@ -759,9 +765,9 @@ R = 0.635294,0.662745,0.690196,1
 BackgroundColor = 0.168627,0.258824,0.384314
 GradientBackground = 0
 CycleColors = true
-Cycles = 0.1
+Cycles = 1.21034487
 EnableFloor = true
-FloorNormal = 0,0,1.1
+FloorNormal = 0,0,1
 FloorHeight = 1.8
 FloorColor = 0.313725,0.313725,0.313725
 HF_Fallof = 0.187344
@@ -774,22 +780,26 @@ HF_Scatter = 10
 HF_Anisotropy = 0.133333,0.00784314,0
 HF_FogIter = 1
 HF_CastShadow = true
-EnCloudsDir = true NotLocked
-Clouds_Dir = 0.273574,-0.22061,-1 NotLocked
-CloudScale = 2.50337 NotLocked
-CloudFlatness = 0 NotLocked
-CloudTops = 1 NotLocked
-CloudBase = -5.8 NotLocked
-CloudDensity = 0.484136 NotLocked
-CloudRoughness = 1 NotLocked
-CloudContrast = 1 NotLocked
-CloudColor = 0.65,0.68,0.7 NotLocked
-CloudColor2 = 0.07,0.17,0.24 NotLocked
-SunLightColor = 0.968627,0.968627,0.968627 NotLocked
-Cloudvar1 = 0.99 NotLocked
-Cloudvar2 = 1 NotLocked
-CloudIter = 3 NotLocked
-CloudBgMix = 1 NotLocked
+EnCloudsDir = true
+CloudDir = 0,0,1
+CloudScale = 2.50337
+CloudOffset = 0,0,0
+CloudFlatness = 0
+CloudTops = 1
+CloudBase = -5.8
+CloudDensity = 0.484136
+CloudRoughness = 1
+CloudContrast = 1
+CloudBrightness = 1
+CloudColor = 0.65,0.68,0.7
+CloudColor2 = 0.07,0.17,0.24
+SunLightColor = 0.968627,0.968627,0.968627
+Cloudvar1 = 0.99
+Cloudvar2 = 1
+CloudIter = 3
+CloudBgMix = 1
+WindDir = 0,0,1
+WindSpeed = 1
 euclideanTriangleType = 2
 dihedralAngles0_234 = 4,3,3
 dihedralAngles1_234 = 2,2,4
