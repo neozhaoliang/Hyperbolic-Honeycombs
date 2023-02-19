@@ -1,4 +1,4 @@
-> **Requirement**: You need to install [Fragmentarium](https://github.com/Syntopia/Fragmentarium) and run the .frag code in Fragmentarium.
+> **Requirement**: This repository is already included in the official release of [FragM](https://github.com/3Dickulus/FragM). You can run the examples by installing FragM and navigating to `examples -- neozhaoliang`.
 
 In this project, We aim to visualize hyperbolic [Coxeter groups](https://en.wikipedia.org/wiki/Coxeter_group) of varying ranks 3/4/5 and levels 1/2/3 (with some examples of levels higher than 3). The scenes can be categorized into two types:
 
