@@ -4,6 +4,7 @@
 #define KN_VOLUMETRIC
 #define USE_EIFFIE_SHADOW
 #define MULTI_SAMPLE_AO
+#include "MathUtils.frag"
 #include "DE-Raytracer.frag"
 
 uniform vec3 Eye;

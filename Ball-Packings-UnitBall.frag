@@ -1,6 +1,8 @@
+#version 330
 #define USE_EIFFIE_SHADOW
 #define MULTI_SAMPLE_AO
 #define providesInit
+#include "MathUtils.frag"
 #include "DE-Kn2cr11.frag"
 
 #group BallPacking-Settings
@@ -20,14 +22,14 @@ uniform vec4 isRealBall; slider[(0,0,0,0),(1,1,0,0),(1,1,1,1)]
 uniform int Iterations; slider[0,10,100]
 
 //infinite foldings----------------------------------------------------------------------------------------------------------------//
-//- 
+//-
 //fold about line with normal ndir (normalized) and dist to origin d.
 void fold(inout vec2 p, in vec2 ndir, in float d) {
     float t = dot(p, ndir) + d;
     t = 2.*min(t,0.);
     p -= t * ndir;
 }
- 
+
 //fmod with step = stp
 void infmod(inout float x, float stp) {
     x *= 1./stp;
@@ -50,12 +52,12 @@ void fold244(inout vec2 p) {
     inffold( p.y , 1. );
 #define VAL sqrt(2.)/2.
     fold( p, -vec2( VAL, VAL ), VAL);
-#undef VAL 
+#undef VAL
 }
 
 //fold into rectangle then a little sequence of line folds.
 void fold236(inout vec2 p) {
-#define S3 sqrt(3.) 
+#define S3 sqrt(3.)
     inffold( p.x , 3. );
     inffold( p.y , S3 );
     vec2 n = -0.5 * vec2(S3, 1.);
@@ -63,12 +65,12 @@ void fold236(inout vec2 p) {
     fold(p, n, d);
     p = abs(p);
     fold(p, n, d);
-#undef S3 
+#undef S3
 }
 
 //most complicated
 void fold333(inout vec2 p) {
-#define S3 sqrt(3.) 
+#define S3 sqrt(3.)
     //change origin
     p.x += 1.;
     //fold y into segment of height sqrt(3)
@@ -94,18 +96,18 @@ void fold333(inout vec2 p) {
     fold(p, n, d);
     //restore origin
     p.x -=1.;
-#undef S3 
+#undef S3
 }
 
 //----------------------------------------------------------------------------------------------------------------------------------//
 
 // K: Ah! OK! :)
-#define inf           1.0 
-#define L2(x)         dot(x, x) 
+#define inf           1.0
+#define L2(x)         dot(x, x)
 
 // K: Why not say sqrt(2.) an sqrt(3.) instead ?
-#define s2 1.41421356 
-#define s3 1.73205081 
+#define s2 1.41421356
+#define s3 1.73205081
 
 float section_height;
 
@@ -117,7 +119,7 @@ vec3 dihedral(vec3 v) {
     return vec3(dihedral(v.x), dihedral(v.y), dihedral(v.z));
 }
 
-// K: Invert member variable removed because not really used here. 
+// K: Invert member variable removed because not really used here.
 // isRealBall could also be removed. the info could be put inside the sign of r. (?)
 struct Ball {
     bool isplane;
@@ -273,24 +275,24 @@ void init() {
     //now we process the real balls
     for (int k = 0; k < 5; k++)
         clusters[k] = defaultBall();
-  
+
     clusters[1] = from_plane(vec3(0, 0, -1.), B0.n.z);
-    clusters[1].isRealBall = isRealBall.x;
+    clusters[1].isRealBall = isRealBall.x == 1.;
 
     clusters[2] = solveBall(C, B0, B1);
-    clusters[2].isRealBall = isRealBall.y;
-    
+    clusters[2].isRealBall = isRealBall.y == 1.;
+
     clusters[3] = solveBall(A, B0, B1);
-    clusters[3].isRealBall = isRealBall.z;
+    clusters[3].isRealBall = isRealBall.z == 1.;
 
     clusters[4] = solveBall(B, B0, B1);
-    clusters[4].isRealBall = isRealBall.w;
+    clusters[4].isRealBall = isRealBall.w == 1.;
 }
- 
+
 float dist2balls( vec3 p, float scale) {
     float d = 1e5; //Ball 0
-    for (int j = 1; j < 5; j++) 
-        if (clusters[j].isRealBall) 
+    for (int j = 1; j < 5; j++)
+        if (clusters[j].isRealBall)
           d = min(abs(sdistanceToBall(p, clusters[j])), d);
     return d/scale;
 }
@@ -314,7 +316,7 @@ float map(inout vec3 p, inout float scale, inout vec4 orb) {
     for (int i = 0; i < Iterations ; i++) {
 	vec3 ap = p;
         EuclideanFold(p);
-        for (int k = 0; k < 2; k++) 
+        for (int k = 0; k < 2; k++)
             try_reflect(p, coclusters[k], scale, orb);
         if (all(not(bvec3(p-ap)))) break;
     }

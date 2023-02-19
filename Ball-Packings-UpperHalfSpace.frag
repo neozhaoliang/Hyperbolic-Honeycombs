@@ -1,8 +1,11 @@
+#version 330
 #define USE_IQ_CLOUDS
 #define KN_VOLUMETRIC
 #define USE_EIFFIE_SHADOW
 #define MULTI_SAMPLE_AO
 #define providesInit
+#include "MathUtils.frag"
+uniform float time;
 #include "DE-Kn2cr11.frag"
 
 #group BallPacking-Settings

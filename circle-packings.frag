@@ -3,7 +3,7 @@
 #define providesInit
 #define MULTI_SAMPLE_AO
 #include "Complex.frag"
-
+#include "MathUtils.frag"
 #include "Soft-Raytracer.frag"
 
 #group BallPacking-Settings
@@ -13,14 +13,14 @@ uniform float orbitDivisor; slider[0,300,2000]
 // so the pattern tiles the entire plane
 uniform bool moveVertexToInf; checkbox[false]
 // The label of edge CD must be finite
-uniform vec3 dihedral_A_BCD; slider[(1,1,1),(4,4,4),(10,10,10)]
+uniform vec3 dihedral_A_BCD; slider[(1,1,2),(4,4,4),(10,10,10)]
 // The triangle BCD must be hyperbolic
-uniform vec3 TriangleBCD; slider[(1,1,2),(4,4,4),(10,10,10)]
+uniform vec3 TriangleBCD; slider[(1,1,1),(4,4,4),(10,10,10)]
 uniform float edgeSize; slider[0.,0.005,0.05]
 uniform float edgeSize2; slider[0.,0.015,0.05]
 
 uniform bool doInvert; checkbox[true];
-uniform vec2 invPoint; slider[(0.5,0.5),(0.75,0.75),(0.9,0.9)]
+uniform vec2 invPoint; slider[(-1.0,-1.0),(0.75,0.75),(1.0,1.0)]
 
 
 #define inf        1.0
@@ -308,7 +308,9 @@ vec2 sphereToPlane(vec3 p) {
 // you can implement your color functions here
 vec3 colormap(int index, float t) {
     float c = float(index) + 1.;
-    return .5 + .45*cos(2.*PI  * pow(t, 0.4) * c + vec3(c, c+2., c+1.) / .6 + vec3(0, 1, 2));
+    // For another scene, try this:
+    //return .5 + .45*cos(2.*PI  * pow(t, 0.3) * 1.5 + vec3(c, c+2., c+1.) / 2.7 + vec3(0, 1, 2));
+    return .5 + .45*cos(2.*PI  * pow(t, 0.7) * c + vec3(c, c+2., c+1.) / 2.7 + vec3(0, 1, 2));
 }
 
 vec3 getColor(vec2 p) {
@@ -353,72 +355,7 @@ float DE(vec3 p) {
 }
 
 
-
 #preset default
-FOV = 0.4
-Eye = 11.9485,-11.1753,19.9812
-Target = 1.73248,-6.10803,7.96281
-Up = 0,0,1
-EquiRectangular = false
-FocalPlane = 0.7772
-Aperture = 0
-Gamma = 2.2
-ToneMapping = 5
-Exposure = 1
-Brightness = 1
-Contrast = 1
-Saturation = 1
-GaussianWeight = 1
-AntiAliasScale = 1.5
-Detail = -3
-DetailAO = -0.5
-FudgeFactor = 1
-MaxRaySteps = 357
-BoundingSphere = 100
-Dither = 0.5
-NormalBackStep = 1
-AO = 0,0,0,0.7
-Specular = 0.4
-SpecularExp = 71.154
-SpotLight = 1,1,1,2.4
-SpotLightPos = 10,-1.2,10
-SpotLightSize = 0
-CamLight = 1,1,1,0.43878
-CamLightMin = 0
-Glow = 1,1,1,0
-GlowMax = 14
-Fog = 0
-Shadow = 0.95455 NotLocked
-Sun = 0.61976,0.75831
-SunSize = 0.30279
-Reflection = 0
-BaseColor = 0.435294,0.435294,0.435294
-OrbitStrength = 1
-X = 0.5,0.6,0.6,0.7
-Y = 1,0.6,0,0.4
-Z = 0.8,0.78,1,0.5
-R = 0.4,0.7,1,0.12
-BackgroundColor = 0.6,0.6,0.45
-GradientBackground = 0.3
-CycleColors = false
-Cycles = 1.1
-EnableFloor = false
-FloorNormal = 0,0,0
-FloorHeight = 0
-FloorColor = 1,1,1
-max_reflections = 155
-moveVertexToInf = true
-dihedral_A_BCD = 2,2,3
-TriangleBCD = 2,3,7
-Iterations = 391
-edgeSize = 0.0015
-edgeSize2 = 0.014
-doInvert = false
-invPoint = 0.74737,0.87719
-#endpreset
-
-
-#preset 433-334
 FOV = 0.4
 Eye = 3.38823,-2.11499,21.4433
 Target = 0.999337,-1.7885,5.05208
@@ -480,3 +417,70 @@ edgeSize2 = 0.02347
 doInvert = true
 invPoint = -0.69132,0.89068
 #endpreset
+
+
+
+
+#preset Euclidean-view
+FOV = 0.4
+Eye = 20,0,20
+Target = 0,0,0
+Up = -0.5,0,0.5
+EquiRectangular = false
+FocalPlane = 0.7772
+Aperture = 0
+Gamma = 2.2
+ToneMapping = 5
+Exposure = 1
+Brightness = 1
+Contrast = 1
+Saturation = 1
+GaussianWeight = 1
+AntiAliasScale = 1.5
+Detail = -3
+DetailAO = -0.5
+FudgeFactor = 1
+MaxRaySteps = 357
+BoundingSphere = 100
+Dither = 0.5
+NormalBackStep = 1
+AO = 0,0,0,0.7
+Specular = 0.4
+SpecularExp = 71.154
+SpotLight = 1,1,1,2.4
+SpotLightPos = 10,10,3.7384
+SpotLightSize = 0
+CamLight = 1,1,1,0.43878
+CamLightMin = 0
+Glow = 1,1,1,0
+GlowMax = 14
+Fog = 0
+Shadow = 1 NotLocked
+Sun = 0.61976,0.75831
+SunSize = 0.30279
+Reflection = 0.15054
+BaseColor = 0.435294,0.435294,0.435294
+OrbitStrength = 1
+X = 0.5,0.6,0.6,0.7
+Y = 1,0.6,0,0.4
+Z = 0.8,0.78,1,0.5
+R = 0.4,0.7,1,0.12
+BackgroundColor = 0.6,0.6,0.45
+GradientBackground = 0.3
+CycleColors = false
+Cycles = 1.1
+EnableFloor = false
+FloorNormal = 0,0,0
+FloorHeight = 0
+FloorColor = 1,1,1
+Iterations = 200
+orbitDivisor = 30
+moveVertexToInf = true
+edgeSize = 0.001
+edgeSize2 = 0.02381
+doInvert = false
+invPoint = -0.69132,0.89068
+dihedral_A_BCD = 6,2,4
+TriangleBCD = 3,2,7
+#endpreset
+
