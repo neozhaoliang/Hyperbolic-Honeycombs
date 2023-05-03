@@ -89,6 +89,9 @@ Second row: level > 2 groups have overlapping balls, they give fractal patterns 
 ## Fractals from 3D ball clusters (rank = 5, level = 3)
 
 <img src="https://user-images.githubusercontent.com/23307174/134768380-4ac1abe1-fb39-4a16-8b4d-b4152ebb7c62.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768398-c22017da-7aac-497a-8b76-7cdc1732ccd7.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768414-3ec34c1f-2728-4570-8348-6e05d73bed8c.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768433-92a87e12-32f2-4685-89a4-b0cc20d05e61.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/220014316-467f01fc-58b3-4149-aabc-93dbf0d16c2c.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134812638-1fa41d7f-cf64-4d7d-bab6-a0345e1cc74e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134965720-617ca96c-8f5f-4977-a9c8-1f8282e0cea3.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134814347-eee983bf-9b46-4121-96a5-9dd1274baa0a.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137325726-f022570c-4d3d-4339-8356-bb05117c81a1.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/217011897-71ed5747-7659-4208-a1f2-fd135bae47ad.png" width="45%"></img>
+<img src="https://user-images.githubusercontent.com/23307174/235971157-f1b1d91a-9b5e-4c0a-a990-2da316cca9ee.png" width="45%"></img>
+
+
 
 # Authors
 
