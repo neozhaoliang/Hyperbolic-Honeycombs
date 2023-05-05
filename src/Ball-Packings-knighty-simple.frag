@@ -29,7 +29,7 @@ uniform float InvRadius;  slider[0.01,1,2]
 float DE(vec3 p) {
     p.z += FoldSize.z;
     float DEfactor = 1.;
-    vec3 ap = p + 1.0;
+    vec3 ap;
     int i = 0;
     while(i++ < Max_Iterations && ap!=p) {
         ap = p;
