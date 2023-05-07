@@ -23,8 +23,6 @@ uniform float time;
 uniform int Max_Iterations;  slider[0,20,100]
 uniform float InvSphereRadius;  slider[0,1,2]
 uniform vec3 FoldSize;  slider[(0,0,0),(1,1,1),(2,2,2)]
-uniform float InvRadius;  slider[0.01,1,2]
-
 
 float DE(vec3 p) {
     p.z += FoldSize.z;
