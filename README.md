@@ -7,7 +7,7 @@ In this project, We aim to visualize hyperbolic [Coxeter groups](https://en.wiki
 
 The level of a Coxeter group $G$ is defined as the smallest non-negative integer $l$, such that after removing any $l$ vertices from the [Coxeter diagram](https://en.wikipedia.org/wiki/Coxeter%E2%80%93Dynkin_diagram) of $G$, the resulting diagram is either finite or affine. As a result, finite (spherical) and affine (Euclidean) Coxeter groups have level 0.
 
-For level 1, the limit set encompasses the entire boundary and there is no sphere packing. For level 2, there is a dense sphere packing on the boundary, meaning the spheres do not intersect and fill the boundary completely. In levels higher than 2, the spheres still fill the boundary, but they will have intersections. For further mathematical details, please refer to the paper by Chen and Labbé ([Chen and Labbé's paper](https://arxiv.org/abs/1310.8608)) on the connection between hyperbolic geometry and ball packings.
+Coxeter groups of level 1/2 are both hyperbolic. For level 1, the limit set encompasses the entire ideal boundary and there is no sphere packing. For level 2, there is a dense sphere packing on the ideal boundary, meaning the spheres do not intersect and fill the boundary completely. In levels higher than 2, the spheres still fill the boundary, but they will have intersections. For further mathematical details, please refer to the paper by Chen and Labbé ([Chen and Labbé's paper](https://arxiv.org/abs/1310.8608)) on the connection between hyperbolic geometry and ball packings.
 
 ## 3D Euclidean tilings (rank = 4, level = 0)
 
