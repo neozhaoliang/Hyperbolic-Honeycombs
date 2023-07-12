@@ -1,9 +1,9 @@
 > **Requirement**: This repository is already included in the official release of [FragM](https://github.com/3Dickulus/FragM). You can run the examples by installing FragM and navigating to `examples >> neozhaoliang`.
 
-In this project, We aim to visualize hyperbolic [Coxeter groups](https://en.wikipedia.org/wiki/Coxeter_group) of varying ranks 3/4/5 and levels 1/2/3 (with some examples of levels higher than 3). The scenes can be categorized into two types:
+In this project, We aim to visualize hyperbolic [Coxeter groups](https://en.wikipedia.org/wiki/Coxeter_group) of varying ranks 3/4/5 and levels 1/2/3. The scenes can be categorized into two types:
 
-1. Tiling display: Shows the tiling of the hyperbolic honeycomb inside the space, in either the Poincaré ball model or the upper half space model.
-2. Sphere packing display: Shows the sphere packing on the ideal boundary. The ideal boundary is either a sphere in the ball model or a Euclidean plane in the upper half space model. The complement of this sphere packing is referred to as the limit set.
+1. Tiling display: Show the tiling of the hyperbolic honeycomb inside the space in either the Poincaré ball model or the upper half space model.
+2. Sphere packing display: Show the sphere packing on the ideal boundary. The ideal boundary is either a sphere in the ball model or a Euclidean plane in the upper half space model. The complement of this sphere packing is referred to as the limit set.
 
 The level of a Coxeter group $G$ is defined as the smallest non-negative integer $l$, such that after removing any $l$ vertices from the [Coxeter diagram](https://en.wikipedia.org/wiki/Coxeter%E2%80%93Dynkin_diagram) of $G$, the resulting diagram is either finite or affine. As a result, Coxeter groups that are finite (spherical) and affine (Euclidean) have a level of 0.
 
