@@ -5,7 +5,7 @@ In this project, We aim to visualize hyperbolic [Coxeter groups](https://en.wiki
 1. Tiling display: Show the tiling of the hyperbolic honeycomb inside the space in either the Poincaré ball model or the upper half space model.
 2. Sphere packing display: Show the sphere packing on the ideal boundary. The ideal boundary is either a sphere in the ball model or a Euclidean plane in the upper half space model. The complement of this sphere packing is referred to as the limit set.
 
-The level of a Coxeter group $G$ is defined as the smallest non-negative integer $l$, such that after removing any $l$ vertices from the [Coxeter diagram](https://en.wikipedia.org/wiki/Coxeter%E2%80%93Dynkin_diagram) of $G$, the resulting diagram is either finite or affine. As a result, Coxeter groups that are finite (spherical) and affine (Euclidean) have a level of 0.
+The level of a Coxeter group $G$ is defined as the smallest non-negative integer $l$, such that after removing any $l$ vertices from the [Coxeter diagram](https://en.wikipedia.org/wiki/Coxeter%E2%80%93Dynkin_diagram) of $G$, the resulting diagram is either finite or affine. As a result, finite (spherical) and affine (Euclidean) Coxeter groups have level 0.
 
 For level 1, the limit set encompasses the entire boundary and there is no sphere packing. For level 2, there is a dense sphere packing on the boundary, meaning the spheres do not intersect and fill the boundary completely. In levels higher than 2, the spheres still fill the boundary, but they will have intersections. For further mathematical details, please refer to the paper by Chen and Labbé ([Chen and Labbé's paper](https://arxiv.org/abs/1310.8608)) on the connection between hyperbolic geometry and ball packings.
 
