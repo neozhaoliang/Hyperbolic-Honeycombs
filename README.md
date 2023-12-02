@@ -88,7 +88,19 @@ Second row: level > 2 groups have overlapping balls, they give fractal patterns 
 
 ## Fractals from 3D ball clusters (rank = 5, level = 3)
 
-<img src="https://user-images.githubusercontent.com/23307174/134768380-4ac1abe1-fb39-4a16-8b4d-b4152ebb7c62.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768398-c22017da-7aac-497a-8b76-7cdc1732ccd7.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768414-3ec34c1f-2728-4570-8348-6e05d73bed8c.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768433-92a87e12-32f2-4685-89a4-b0cc20d05e61.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/220014316-467f01fc-58b3-4149-aabc-93dbf0d16c2c.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134812638-1fa41d7f-cf64-4d7d-bab6-a0345e1cc74e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134965720-617ca96c-8f5f-4977-a9c8-1f8282e0cea3.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134814347-eee983bf-9b46-4121-96a5-9dd1274baa0a.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137325726-f022570c-4d3d-4339-8356-bb05117c81a1.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/217011897-71ed5747-7659-4208-a1f2-fd135bae47ad.png" width="45%"></img>
+![volcano-lake](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/d141d96c-0af6-4021-ae48-49306432a357)
+![Vinberg](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/bfe802ea-3124-4133-b007-27f2e8ae2386)
+![pink-balls](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/16f452d1-bfc1-4a3f-870f-ea6656c1af93)
+![knighty-cave](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/0b64a3a3-841e-4d80-9ab6-24d4f1772a88)
+![dense-bronze](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/6987f7ac-d344-473e-ac24-291090651f5b)
+![default](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/81507748-b826-4295-9d20-7bfeba4f0ff8)
+
+|   |    |
+|:---:|:---:|
+| <img src= https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/81507748-b826-4295-9d20-7bfeba4f0ff8) ></img>    |  Missing    |
+|<img src="https://user-images.githubusercontent.com/23307174/134768380-4ac1abe1-fb39-4a16-8b4d-b4152ebb7c62.png" width="45%"></img>| <img src="https://user-images.githubusercontent.com/23307174/134768398-c22017da-7aac-497a-8b76-7cdc1732ccd7.png" width="45%"></img>|
+
+<img src="https://user-images.githubusercontent.com/23307174/134768414-3ec34c1f-2728-4570-8348-6e05d73bed8c.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134768433-92a87e12-32f2-4685-89a4-b0cc20d05e61.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/220014316-467f01fc-58b3-4149-aabc-93dbf0d16c2c.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134812638-1fa41d7f-cf64-4d7d-bab6-a0345e1cc74e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134965720-617ca96c-8f5f-4977-a9c8-1f8282e0cea3.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/134814347-eee983bf-9b46-4121-96a5-9dd1274baa0a.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137325726-f022570c-4d3d-4339-8356-bb05117c81a1.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/217011897-71ed5747-7659-4208-a1f2-fd135bae47ad.png" width="45%"></img>
 <img src="https://user-images.githubusercontent.com/23307174/236654674-4d3256e9-4296-4694-a8a7-564df4fa8f51.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/236654678-96277ced-03b6-459d-922a-89a3024f2995.png" width="45%"></img>
 
 
