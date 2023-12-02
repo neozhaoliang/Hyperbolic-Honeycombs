@@ -42,8 +42,7 @@ The level 2 case, shown in the rightmost image, appears less attractive. However
 |    |    |
 |:---:|:---:|
 |![cp1](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/714b9bf8-7653-479e-b9a7-1a93b8a10554)|![cp2](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/564f0ce1-9ce8-47cd-8b6a-63696221170c) |
-|<img src="https://user-images.githubusercontent.com/23307174/218310651-b8b2de42-e72f-4695-a398-30a1ff00ecdc.png"></img> | <img src="https://user-images.githubusercontent.com/23307174/218310665-9ac60e78-9981-48e8-9097-08c421d92a67.png" width="45%"></img> |
-
+|<img src="https://user-images.githubusercontent.com/23307174/218310651-b8b2de42-e72f-4695-a398-30a1ff00ecdc.png"></img> | <img src="https://user-images.githubusercontent.com/23307174/218310665-9ac60e78-9981-48e8-9097-08c421d92a67.png"></img> |
 
 <img src="https://user-images.githubusercontent.com/23307174/218777067-774d763c-7377-421b-8941-0f6c34d6ff3c.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/218777081-05e686bb-9f25-40dc-9b4d-755e93fdc0c0.png" width="45%"></img>
 <img src="https://user-images.githubusercontent.com/23307174/218783208-a0376e5f-7f2c-48d3-9242-c01b0fc85693.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/218783238-b8746c11-5939-43cc-8f7c-0688aa098da6.png" width="45%"></img>
