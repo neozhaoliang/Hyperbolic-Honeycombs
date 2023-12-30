@@ -1,13 +1,13 @@
 > **Requirement**: This repository is already included in the official release of [FragM](https://github.com/3Dickulus/FragM). You can run the examples by installing FragM and navigating to `examples >> neozhaoliang`.
 
-In this project, We aim to visualize hyperbolic [Coxeter groups](https://en.wikipedia.org/wiki/Coxeter_group) of varying ranks 3/4/5 and levels 1/2/3. The scenes can be categorized into two types:
+In this project, We will visualize hyperbolic [Coxeter groups](https://en.wikipedia.org/wiki/Coxeter_group) of varying ranks 3/4/5 and levels 1/2/3. The scenes can be categorized into two types:
 
-1. Tiling display: Show the tiling of the hyperbolic honeycomb inside the space in either the Poincaré ball model or the upper half space model.
-2. Sphere packing display: Show the sphere packing on the ideal boundary. The ideal boundary is either a sphere in the ball model or a Euclidean plane in the upper half space model. The complement of this sphere packing is referred to as the limit set.
+1. Tiling display: Show the tiling of hyperbolic honeycombs inside the space in the Poincaré ball model and upper half space model.
+2. Sphere packing display: Show the sphere packing on the ideal boundary. The complement of this sphere packing is called the limit set.
 
-The level of a Coxeter group $G$ is defined as the smallest non-negative integer $l$, such that after removing any $l$ vertices from the [Coxeter diagram](https://en.wikipedia.org/wiki/Coxeter%E2%80%93Dynkin_diagram) of $G$, the resulting diagram is either finite or affine. As a result, finite (spherical) and affine (Euclidean) Coxeter groups have level 0.
+The level of a Coxeter group $G$ is defined as the smallest non-negative integer $l$, such that after removing any $l$ vertices from its [Coxeter diagram](https://en.wikipedia.org/wiki/Coxeter%E2%80%93Dynkin_diagram), the remaining diagram is either finite or affine. As a result, finite (spherical) and affine (Euclidean) Coxeter groups have level 0.
 
-Coxeter groups of level 1/2 are both hyperbolic. For level 1, the limit set encompasses the entire ideal boundary and there is no sphere packing. For level 2, there is a dense sphere packing on the ideal boundary, meaning the spheres do not intersect and fill the boundary completely. For levels higher than 2, the spheres still fill the boundary, but they will have intersections. For further mathematical details, please refer to the paper by Chen and Labbé ([Chen and Labbé's paper](https://arxiv.org/abs/1310.8608)) on the connection between hyperbolic geometry and ball packings.
+It's proved in a paper by George Maxwell that Coxeter groups of level 1/2 are both hyperbolic. For level 1, the limit set is the entire ideal boundary and there is no sphere packing. For level 2, there is a maximal sphere packing on the ideal boundary, meaning the spheres do not intersect and fill the boundary completely. For levels higher than 2, the spheres still fill the boundary, but they will overlap. For further mathematical details, please refer to the paper by Chen and Labbé ([Chen and Labbé's paper](https://arxiv.org/abs/1310.8608)) on the connection between hyperbolic geometry and ball packings.
 
 ## 3D Euclidean tilings (rank = 4, level = 0)
 
@@ -25,7 +25,7 @@ From left to right: compact tiling, paracompact tiling (with ideal vertices on t
 
 <img src="https://user-images.githubusercontent.com/23307174/137573698-507e1abc-bb23-4a9c-b5ac-0a4bb12e6527.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137573695-eb58bf45-dbac-499e-a04e-c74a967f0a42.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137573687-7cdfa82c-6129-4599-bc61-ec98f0c838d2.png" width="30%"></img>
 
-The level 2 case, shown in the rightmost image, appears less attractive. However, it can be observed that each cell, represented by a triangle, intersects the ideal boundary at an arc. These arcs collectively fill the entire boundary. This concept can also be extended to three-dimensional and four-dimensional spaces. If the group has level 2, each cell in the honeycomb will intersect the boundary at a disk or sphere, and these disks or spheres pack the entire boundary.
+The level 2 case, shown in the rightmost image, appears less attractive. However, it can be observed that each cell, which is an unbounded triangle, intersects the ideal boundary at an arc. All these arcs pack the entire boundary circle. This phenomena generalizes to three and four-dimensional spaces. If the group has level 2, each cell in the honeycomb will intersect the boundary at a disk or sphere, and these disks/spheres pack the entire boundary.
 
 ## 3D hyperbolic honeycombs (rank = 4, level = 1, 2)
 
@@ -86,12 +86,13 @@ Groups from [Mcleod's thesis](http://etheses.dur.ac.uk/7743/1/thesis31072013.pdf
 
 Top row: level 2 groups give dense ball packings of the unit ball.
 
-Second row: level > 2 groups have overlapping balls, they give fractal patterns if some of the balls are removed. Basically these are the fratals in the next section but moved to the Poincaré unit ball model.
+Second row: level > 2 groups have overlapping balls, they give fractal patterns if some of the balls are removed. Basically these are the fratals in the next section but shown in the Poincaré unit ball model.
 
 <img src="https://user-images.githubusercontent.com/23307174/137572582-76bdb60c-7835-4e64-aec2-7f6dee52881d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137572621-5f2fd253-1d66-491c-97d2-33d738f33013.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137572850-d7bf9bfa-c387-4f3f-9b6c-498ef425428e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137572851-5eba3051-d2da-47c6-8f70-a0623c93fb14.png" width="45%"></img>
 
 ## Fractals from 3D ball clusters (rank = 5, level = 3)
 
+Note some Coxeter diagrams for the rendered images below is missing (I forgot them).
 
 |   |    |
 |:---:|:---:|
@@ -105,7 +106,8 @@ Second row: level > 2 groups have overlapping balls, they give fractal patterns 
 | <img src="https://user-images.githubusercontent.com/23307174/134965720-617ca96c-8f5f-4977-a9c8-1f8282e0cea3.png"></img> | <img src="https://user-images.githubusercontent.com/23307174/134814347-eee983bf-9b46-4121-96a5-9dd1274baa0a.png"></img> |
 | ![knighty-cave](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/0b64a3a3-841e-4d80-9ab6-24d4f1772a88) | Missing |
 |<img src="https://user-images.githubusercontent.com/23307174/137325726-f022570c-4d3d-4339-8356-bb05117c81a1.png"></img> | <img src="https://user-images.githubusercontent.com/23307174/217011897-71ed5747-7659-4208-a1f2-fd135bae47ad.png"></img>|
-| <img src="https://user-images.githubusercontent.com/23307174/236654674-4d3256e9-4296-4694-a8a7-564df4fa8f51.png"></img> | <img src="https://user-images.githubusercontent.com/23307174/236654678-96277ced-03b6-459d-922a-89a3024f2995.png"></img>|
+| ![golden-2](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/7b0f533a-c373-4dc4-800d-b02a1cfa5dfc) | ![4-4-3-inf-inf](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/0847fa79-bf96-439e-a782-3a43c4de59fb) |
+| <img src="https://private-user-images.githubusercontent.com/23307174/288715495-99a89c94-3d58-46bb-97a0-29ff1b54c8d2.png"></img> | <img src="https://private-user-images.githubusercontent.com/23307174/288643505-e0cc5429-b3f8-4fbe-a343-f98a32154255.png"></img>|
 
 
 # Authors
