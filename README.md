@@ -92,7 +92,7 @@ Second row: level > 2 groups have overlapping balls, they give fractal patterns 
 
 ## Fractals from 3D ball clusters (rank = 5, level = 3)
 
-Note some Coxeter diagrams for the rendered images below is missing (I forgot them).
+Note some Coxeter diagrams for the rendered images below are missing (I forgot them).
 
 |   |    |
 |:---:|:---:|
