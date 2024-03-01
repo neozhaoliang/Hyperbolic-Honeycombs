@@ -108,7 +108,7 @@ Note some Coxeter diagrams for the rendered images below are missing (I forgot t
 |<img src="https://user-images.githubusercontent.com/23307174/137325726-f022570c-4d3d-4339-8356-bb05117c81a1.png"></img> | <img src="https://user-images.githubusercontent.com/23307174/217011897-71ed5747-7659-4208-a1f2-fd135bae47ad.png"></img>|
 | ![golden-2](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/7b0f533a-c373-4dc4-800d-b02a1cfa5dfc) | ![4-4-3-inf-inf](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/0847fa79-bf96-439e-a782-3a43c4de59fb) |
 | <img src="https://user-images.githubusercontent.com/23307174/288715495-99a89c94-3d58-46bb-97a0-29ff1b54c8d2.png"></img> | <img src="https://user-images.githubusercontent.com/23307174/288643505-e0cc5429-b3f8-4fbe-a343-f98a32154255.png"></img>|
-
+| <img src="https://user-images.githubusercontent.com/23307174/236654674-4d3256e9-4296-4694-a8a7-564df4fa8f51.png"></img> | <img src="https://user-images.githubusercontent.com/23307174/236654678-96277ced-03b6-459d-922a-89a3024f2995.png"></img>|
 
 
 # Authors
