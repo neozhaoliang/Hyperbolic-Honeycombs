@@ -18,7 +18,7 @@ uniform int Iterations; slider[1,30,500]
 uniform float DEcor; slider[0,1,1]
 
 
-#define inf           1.0
+#define inf           1.0    // 1.3 for the vinberg convention
 #define L2(x)         dot(x, x)
 
 
@@ -103,7 +103,7 @@ const float s2 = sqrt(2.);
 const float s3 = sqrt(3.);
 
 float dihedral(float x) {
-    return x == inf ? inf : cos(PI / x);
+    return x == 1.0 ? inf : cos(PI / x);
 }
 
 vec3 dihedral(vec3 v) {
@@ -842,7 +842,7 @@ BloomStrong = 6.57901
 DepthToAlpha = true
 Detail = -3.8
 RefineSteps = 5
-FudgeFactor = 1
+FudgeFactor = 0.55
 MaxRaySteps = 300
 MaxDistance = 200
 Dither = 0.5
