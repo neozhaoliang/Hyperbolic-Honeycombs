@@ -1285,13 +1285,13 @@ CloudIter = 3
 CloudBgMix = 1
 WindDir = 0,0,1
 WindSpeed = 1
-euclideanTriangleType = 2 Locked
-dihedralAngles0_234 = 2,2,5 Locked
-dihedralAngles1_234 = 3,2,1 Locked
-dihedralAngle0_1 = 1 Locked
-isRealBall = 0,0,0,1 Locked
-Iterations = 220 Locked
-DEcor = 1 Locked
+euclideanTriangleType = 1
+dihedralAngles0_234 = 2,2,3
+dihedralAngles1_234 = 2,2,1
+dihedralAngle0_1 = 1
+isRealBall = 0,0,0,1
+Iterations = 220
+DEcor = 1
 #endpreset
 
 
