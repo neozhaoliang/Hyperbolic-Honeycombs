@@ -385,7 +385,8 @@ vec3 baseColor(vec3 pos, vec3 normal) {
                 bool found =fold3d(q, count);
                 color = getFloorColor(found, count);
                 float edist = distABCD(q);
-                color = mix(color, floorLineColor, (1.0 - smoothstep(0., 0.005, edist))*floorLineThickness);
+                float aa = fwidth(edist) / 2.;
+                color = mix(color, floorLineColor, 1. - smoothstep(floorLineThickness-aa, floorLineThickness+aa, edist));
             }
             else
                 color = BackgroundColor;
@@ -964,7 +965,7 @@ activeMirrors = 0,0,1,1
 vertexSize = 0.224
 edgeSize = 0.08527
 faceThickness = 0.005
-floorLineThickness = 1.10232
+floorLineThickness = 0.008
 Iterations = 131
 CSphRad = 1
 #endpreset
