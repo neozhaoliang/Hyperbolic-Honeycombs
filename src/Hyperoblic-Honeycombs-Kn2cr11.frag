@@ -60,13 +60,13 @@ mat4 M;
 vec4 v0;
 
 // This matrix also holds the reflection mirrors,
-// except they are planes and spheres in 3d space.
-// This is use for computing the floor pattern.
+// except they are represented as usual planes and spheres in 3d space.
+// This is used for computing the floor pattern in the noncompact case.
 // The floor is the ideal boundary of the hyperbolic model hence cannot
-// be lifted to the hyperboloid, but we can still reflect and inversion them
+// be lifted to the hyperboloid, but we can still do reflections and inversions
 // in 3d space.
-// The first three mirrors re normals of 3d planes,
-// The last one contains the center and radius of the inversion sphere.
+// The first three mirrors are normal vectors of planes,
+// The last one is the (center, radius) of the inversion sphere.
 mat4 M2;
 
 // cosh, sinh of the vertex radius and edge radius
@@ -174,7 +174,7 @@ void init() {
     csr = cosh(edgeSize); ssr = sinh(edgeSize);
 
     // M2 and M differ only in their last column vector
-	vec3 cen = -vec3(c03, c13, c23) *  inverse(mat3(A.xyz, B.xyz, C.xyz)) ;
+    vec3 cen = -vec3(c03, c13, c23) *  inverse(mat3(A.xyz, B.xyz, C.xyz)) ;
     vec4 S = vec4(cen, 1);
     S /= sqrt(dot(cen, cen) - 1.);
     M2 = mat4(A, B, C, S);
@@ -263,7 +263,6 @@ float dSegment(vec4 p, vec4 n, float r) {
     float sa = 0.5 * sqrt(-hdot(p - pj, p - pj) * hdot(p + pj, p + pj));
     return knightyDD(ca * csr - sa * ssr, sa * csr - ca * ssr, r);
 }
-
 
 float dFace(vec4 p, float r, vec4 n1, vec4 n2) {
     mat3 m = mat3(-1, hdot(v0, n1), hdot(v0, n2),
