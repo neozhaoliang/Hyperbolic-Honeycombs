@@ -116,3 +116,7 @@ Note some Coxeter diagrams for the rendered images below are missing (I forgot t
 + [Chen Hao](https://twitter.com/Chen_Hao)
 + [Zhao Liang](https://twitter.com/neozhaoliang)
 + [Abdelaziz Nait Merzouk](https://twitter.com/FfKnighty)
+
+# License
+
+The .frag code written for FragM in this repository is licensed under the [GPL License](./LICENSE). The images demonstrated by the authors in this project, including those uploaded by the authors on other platforms such as Twitter, are licensed under the [CC BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
