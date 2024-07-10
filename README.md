@@ -94,11 +94,14 @@ Groups from [Mcleod's thesis](http://etheses.dur.ac.uk/7743/1/thesis31072013.pdf
 
 ## 3D ball packings (rank = 5, level >= 2)
 
-Top row: level 2 groups give dense ball packings of the unit ball.
+These are the ball packings in the next section but shown in the Poincaré unit ball model.
 
-Second row: level > 2 groups have overlapping balls, they give fractal patterns if some of the balls are removed. Basically, these are the fractals in the next section but shown in the Poincaré unit ball model.
 
-<img src="https://user-images.githubusercontent.com/23307174/137572582-76bdb60c-7835-4e64-aec2-7f6dee52881d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137572621-5f2fd253-1d66-491c-97d2-33d738f33013.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137572850-d7bf9bfa-c387-4f3f-9b6c-498ef425428e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137572851-5eba3051-d2da-47c6-8f70-a0623c93fb14.png" width="45%"></img>
+|     |     |    |
+|:---:|:---:|:---:|
+|![236-323-423-2](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/83d16468-fb49-4d04-b301-68160b3bf867)|![244-224-243-2](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/c8a58983-a578-4291-a17f-d5211dff14a9)|![244-232-425-2](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/85bda303-d67e-4c4f-ba18-237fe6a82faa)|
+
+
 
 ## Fractals from 3D ball clusters (rank = 5, level = 3)
 
