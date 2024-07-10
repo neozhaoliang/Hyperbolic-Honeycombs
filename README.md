@@ -119,13 +119,6 @@ Note some Coxeter diagrams for the rendered images below are missing (I forgot t
 
 
 
-
-
-
-
-
-
-
 # Authors
 
 + [Chen Hao](https://twitter.com/Chen_Hao)
