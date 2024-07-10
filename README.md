@@ -45,20 +45,6 @@ The level 2 case, shown in the rightmost image, appears less attractive. However
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 2D circle packings (rank = 4, level = 2)
 
 [Shadertoy live](https://www.shadertoy.com/view/WdGBz3)
@@ -110,7 +96,7 @@ Groups from [Mcleod's thesis](http://etheses.dur.ac.uk/7743/1/thesis31072013.pdf
 
 Top row: level 2 groups give dense ball packings of the unit ball.
 
-Second row: level > 2 groups have overlapping balls, they give fractal patterns if some of the balls are removed. Basically these are the fratals in the next section but shown in the Poincaré unit ball model.
+Second row: level > 2 groups have overlapping balls, they give fractal patterns if some of the balls are removed. Basically, these are the fractals in the next section but shown in the Poincaré unit ball model.
 
 <img src="https://user-images.githubusercontent.com/23307174/137572582-76bdb60c-7835-4e64-aec2-7f6dee52881d.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137572621-5f2fd253-1d66-491c-97d2-33d738f33013.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137572850-d7bf9bfa-c387-4f3f-9b6c-498ef425428e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137572851-5eba3051-d2da-47c6-8f70-a0623c93fb14.png" width="45%"></img>
 
@@ -118,21 +104,23 @@ Second row: level > 2 groups have overlapping balls, they give fractal patterns 
 
 Note some Coxeter diagrams for the rendered images below are missing (I forgot them).
 
-|   |    |
+|     |     |
 |:---:|:---:|
-| ![default](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/81507748-b826-4295-9d20-7bfeba4f0ff8) |  Missing    |
-|<img src="https://user-images.githubusercontent.com/23307174/134768380-4ac1abe1-fb39-4a16-8b4d-b4152ebb7c62.png" ></img>| <img src="https://user-images.githubusercontent.com/23307174/134768398-c22017da-7aac-497a-8b76-7cdc1732ccd7.png"></img>|
-| ![pink-balls](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/16f452d1-bfc1-4a3f-870f-ea6656c1af93) | ![dense-bronze](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/6987f7ac-d344-473e-ac24-291090651f5b)   |
-| <img src="https://user-images.githubusercontent.com/23307174/134768414-3ec34c1f-2728-4570-8348-6e05d73bed8c.png"></img> | <img src="https://user-images.githubusercontent.com/23307174/134768433-92a87e12-32f2-4685-89a4-b0cc20d05e61.png"></img>  |
-| ![volcano-lake](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/d141d96c-0af6-4021-ae48-49306432a357) | ![Vinberg](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/bfe802ea-3124-4133-b007-27f2e8ae2386) |
-| <img src="https://user-images.githubusercontent.com/23307174/220014316-467f01fc-58b3-4149-aabc-93dbf0d16c2c.png"></img> | <img src="https://user-images.githubusercontent.com/23307174/134812638-1fa41d7f-cf64-4d7d-bab6-a0345e1cc74e.png"></img> |
-| Missing |  Missing |
-| <img src="https://user-images.githubusercontent.com/23307174/134965720-617ca96c-8f5f-4977-a9c8-1f8282e0cea3.png"></img> | <img src="https://user-images.githubusercontent.com/23307174/134814347-eee983bf-9b46-4121-96a5-9dd1274baa0a.png"></img> |
-| ![knighty-cave](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/0b64a3a3-841e-4d80-9ab6-24d4f1772a88) | Missing |
-|<img src="https://user-images.githubusercontent.com/23307174/137325726-f022570c-4d3d-4339-8356-bb05117c81a1.png"></img> | <img src="https://user-images.githubusercontent.com/23307174/217011897-71ed5747-7659-4208-a1f2-fd135bae47ad.png"></img>|
-| ![golden-2](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/7b0f533a-c373-4dc4-800d-b02a1cfa5dfc) | ![4-4-3-inf-inf](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/0847fa79-bf96-439e-a782-3a43c4de59fb) |
-| <img src="https://user-images.githubusercontent.com/23307174/288715495-99a89c94-3d58-46bb-97a0-29ff1b54c8d2.png"></img> | <img src="https://user-images.githubusercontent.com/23307174/288643505-e0cc5429-b3f8-4fbe-a343-f98a32154255.png"></img>|
-| <img src="https://user-images.githubusercontent.com/23307174/236654674-4d3256e9-4296-4694-a8a7-564df4fa8f51.png"></img> | <img src="https://user-images.githubusercontent.com/23307174/236654678-96277ced-03b6-459d-922a-89a3024f2995.png"></img>|
+|![4-4-inf-inf(2)(1)](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/af669f73-b3bc-44d7-91be-e1a990a94f17)|![4-4-inf-inf(1)](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/4c6df235-9a9e-4ef8-a6c0-ca6171969e9a)|
+|![236-223-227-5](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/e544cc67-2c7e-4151-a896-a704347faee1)|![236-444-322-5](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/03fd4e61-50e0-43fd-a9a2-7a532b40c240)|
+|![244-223-22inf-inf](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/f57346eb-d9f8-4f65-866d-0c54bd0bebe1)|![244-234-334-4](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/16b5c836-3ca6-44ea-8d22-2b8e127b7cf7)|
+|![244-442-323-3](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/aef0a32b-9386-4903-a003-48f91ba8457c)|![244-327-327-4](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/a85eb266-f8fd-4949-9c88-07c65bc3cbe5)|
+|![333-224-22inf-inf](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/f1d68ae6-0a7f-4018-a778-748a13aa760a)|![333-225-32inf-inf](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/9b62f444-974f-4fb3-990d-131f8c0c88ca)|
+|![333-227-225-inf(inf=1 3)](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/5ea8b446-b2df-4a8d-a859-7d0ab05e688f)|![333-227-226-7](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/e07defd6-8c88-485f-82b1-26a9cd46c989)|
+![333-433-224-2](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/93bcd53c-0154-4ab7-8159-faedf2585010)![333-442-343-3(3D)](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/1f4e99f8-a7d8-46e9-98d4-d95ae4f8105a)|
+
+
+
+
+
+
+
+
 
 
 # Authors
