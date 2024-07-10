@@ -112,7 +112,7 @@ Note some Coxeter diagrams for the rendered images below are missing (I forgot t
 |![244-442-323-3](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/aef0a32b-9386-4903-a003-48f91ba8457c)|![244-327-327-4](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/a85eb266-f8fd-4949-9c88-07c65bc3cbe5)|
 |![333-224-22inf-inf](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/f1d68ae6-0a7f-4018-a778-748a13aa760a)|![333-225-32inf-inf](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/9b62f444-974f-4fb3-990d-131f8c0c88ca)|
 |![333-227-225-inf(inf=1 3)](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/5ea8b446-b2df-4a8d-a859-7d0ab05e688f)|![333-227-226-7](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/e07defd6-8c88-485f-82b1-26a9cd46c989)|
-![333-433-224-2](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/93bcd53c-0154-4ab7-8159-faedf2585010)![333-442-343-3(3D)](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/1f4e99f8-a7d8-46e9-98d4-d95ae4f8105a)|
+![333-433-224-2](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/93bcd53c-0154-4ab7-8159-faedf2585010)|![333-442-343-3(3D)](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/1f4e99f8-a7d8-46e9-98d4-d95ae4f8105a)|
 
 
 
