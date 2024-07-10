@@ -2,12 +2,12 @@
 
 In this project, We will visualize hyperbolic [Coxeter groups](https://en.wikipedia.org/wiki/Coxeter_group) of varying ranks 3/4/5 and levels 1/2/3. The scenes can be categorized into two types:
 
-1. Tiling display: Show the tiling of hyperbolic honeycombs inside the space in the Poincaré ball model and upper half space model.
+1. Tiling display: Show the tiling of hyperbolic honeycombs inside the space in the Poincaré ball and upper half-space models.
 2. Sphere packing display: Show the sphere packing on the ideal boundary. The complement of this sphere packing is called the limit set.
 
 The level of a Coxeter group $G$ is defined as the smallest non-negative integer $l$, such that after removing any $l$ vertices from its [Coxeter diagram](https://en.wikipedia.org/wiki/Coxeter%E2%80%93Dynkin_diagram), the remaining diagram is either finite or affine. As a result, finite (spherical) and affine (Euclidean) Coxeter groups have level 0.
 
-It's proved in a paper by George Maxwell that Coxeter groups of level 1/2 are both hyperbolic. For level 1, the limit set is the entire ideal boundary and there is no sphere packing. For level 2, there is a maximal sphere packing on the ideal boundary, meaning the spheres do not intersect and fill the boundary completely. For levels higher than 2, the spheres still fill the boundary, but they will overlap. For further mathematical details, please refer to the paper by Chen and Labbé ([Chen and Labbé's paper](https://arxiv.org/abs/1310.8608)) on the connection between hyperbolic geometry and ball packings.
+It's proved in a paper by George Maxwell that Coxeter groups of level 1/2 are both hyperbolic. For level 1, the limit set is the ideal boundary and there is no sphere packing. For level 2, there is a maximal sphere packing on the ideal boundary, meaning the spheres do not intersect and fill the boundary. For levels higher than 2, the spheres still fill the boundary, but they will overlap. For further mathematical details, please refer to the paper by Chen and Labbé ([Chen and Labbé's paper](https://arxiv.org/abs/1310.8608)) on the connection between hyperbolic geometry and ball packings.
 
 ## 3D Euclidean tilings (rank = 4, level = 0)
 
@@ -25,15 +25,39 @@ From left to right: compact tiling, paracompact tiling (with ideal vertices on t
 
 <img src="https://user-images.githubusercontent.com/23307174/137573698-507e1abc-bb23-4a9c-b5ac-0a4bb12e6527.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137573695-eb58bf45-dbac-499e-a04e-c74a967f0a42.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137573687-7cdfa82c-6129-4599-bc61-ec98f0c838d2.png" width="30%"></img>
 
-The level 2 case, shown in the rightmost image, appears less attractive. However, it can be observed that each cell, which is an unbounded triangle, intersects the ideal boundary at an arc. All these arcs pack the entire boundary circle. This phenomena generalizes to three and four-dimensional spaces. If the group has level 2, each cell in the honeycomb will intersect the boundary at a disk or sphere, and these disks/spheres pack the entire boundary.
+The level 2 case, shown in the rightmost image, appears less attractive. However, it can be observed that each cell, which is an unbounded triangle, intersects the ideal boundary at an arc. All these arcs pack the entire boundary circle. This phenomenon generalizes to three and four-dimensional spaces. If the group has level 2, each cell in the honeycomb will intersect the boundary at a disk or sphere, and these disks/spheres pack the entire boundary.
 
 ## 3D hyperbolic honeycombs (rank = 4, level = 1, 2)
 
 (Images with Poincaré disks packing the boundary are of level 2)
 
-<img src="https://user-images.githubusercontent.com/23307174/219947464-9c20a496-8625-411a-a047-4d2ed074cc26.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051401-d97b7836-fd49-48b2-826a-7cec3d9e5977.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051431-73d9a58c-4348-490c-bfb5-dcad80904b22.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051455-32b2f0fa-0ff2-4c8e-9abb-a17aa2087bf9.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051476-43bc562e-6d26-4a16-a368-87157d2af8ab.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051485-bdfc464b-fbc2-4844-be36-e91207c95ba7.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051505-4654aa98-ae38-49f1-b397-d38ea8de602f.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051509-2c29ca93-ff91-4a11-9aa5-5b7258b94e4e.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051514-56d85ee1-f52e-455b-b6a9-02d710540f44.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051519-2a5db2a2-af77-4b07-a4ea-b9b38c82fd6b.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051528-5dfab8ad-cbd2-48a4-b114-b4e1bd195dfc.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/131051669-17a7ee93-cc9b-44c0-b176-b603f9ab3404.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/191715828-a935680c-d13f-4105-9fca-6e84a136f16f.jpeg" width="45%"></img>
-<img src="https://user-images.githubusercontent.com/23307174/131051679-55074bf4-9945-464b-985b-c4be053c473c.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/23307174/137326046-8a239cab-6760-4cfc-8ed7-67bf80b0ba67.png" width="45%"></img>
-<img src="https://user-images.githubusercontent.com/23307174/191716449-765efaea-b4ef-4cc5-879b-7ba285dca436.jpeg" width="45%"></img>
+|     |     |
+|:---:|:---:|
+| ![353-1000](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/3bd6f8ae-db6a-41a6-ab8e-5c8d8820c475)|![363-0100](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/bb08fcca-eab3-4df0-a685-6c4be9738c63)|
+|![373-0101](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/3f893a0e-7f3c-4ff2-8442-c243681c837a)|![444-0011](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/b7458b11-11ee-4399-80b3-76c3f41d3915)|
+|![445-0011](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/264196a0-5e77-4340-b2c0-384f7764c3a6)|![445-1100](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/dfdeab76-3859-44af-ab8c-618662730ff2)|
+|![534-1000](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/442411c1-f880-4b4c-b9ed-d075b8334e15)|![535-1100](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/c47b5d88-6982-4a11-9508-0b199491f387)|
+|![536-1100](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/63bf509d-79a0-453d-b5c7-04ae9c20d894)|![735-0011](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/90f1ee50-02c4-4a01-a91d-af39e4e731b5)|
+|![522332-1010](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/9b57bca7-8dec-47db-b578-f500eb743a20)|![935-0011](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/3cc05c9a-1685-446c-bd0f-042b058590d7)|
+|![532233](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/6ccfdf8b-b5d3-4794-92c5-6e75ae6c5464)|![365-1101](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/533b37a3-18ad-44b7-94ec-c7b4b4a45538)|
+|![445-0100](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/2527448a-db7e-439f-8adf-0009e12f3e0e)|![454-1101(1)](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/a70de753-88a4-4b4b-8239-ef5b9f8ccf3b)|
+![535-1000](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/ebeed494-72a4-4936-9aff-560172853136)|![522333](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/99742433-98e3-4e67-a50f-c0c63f750455)|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 2D circle packings (rank = 4, level = 2)
 
