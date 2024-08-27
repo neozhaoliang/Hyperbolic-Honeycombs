@@ -118,16 +118,28 @@ These are the ball packings in the next section but shown in the Poincaré unit 
 
 # How to use
 
+please refer to the [official Wiki page](https://github.com/3Dickulus/FragM/wiki) for more detailed information.
+
 + Download or clone this repository to your local machine.
 
 + Visit the [Fragmentarium release page](https://github.com/3Dickulus/FragM/releases/tag/v2.5.7-221224) and select the appropriate release for your operating system. In this tutorial, the instructions are based on a Windows environment. Therefore, download the file `Fragmentarium-2.5.7-221224-winex.7z`. Save the file and extract it to a convenient location on your disk.
 
-    ![Screenshot 2024-08-27 at 09-44-53 3Dickulus_FragM Derived from https __github com_Syntopia_Fragmentarium_](https://github.com/user-attachments/assets/07008d02-f83d-46b1-8ecd-7321aa861e11)
+    ![Screenshot releases](https://github.com/user-attachments/assets/07008d02-f83d-46b1-8ecd-7321aa861e11)
 
 + In the extracted folder, locate the executable file named `Fragmentarium-2.5.7.exe`. Double-click it to launch the application. Upon launching, you should see the following interface:
 
+    ![Screenshot gui)](https://github.com/user-attachments/assets/2ccae9d4-51e8-480f-80b8-fb9a7712d48d)
+
+    The interface is organized into four main regions:
+
+    1. The central area displays the rendered result based on the loaded .frag file.
+    2. On the left side, you will find the code editor. If you make changes to the source code, press `Ctrl + S` to save your modifications, then click `Build` to recompile and view the updated result.
+    3. The right side houses the control panel, where you can adjust various parameters. These controls are defined within the .frag file using `#group` macros.
+    4. The bottom section is dedicated to logging. If the code fails to compile, check the error messages here for troubleshooting information.
+
 + From the menu bar, select `File -> Open`. Navigate to the directory where you saved the source code of this project and choose a .frag file. For example, select `Ball-Packings-UHS.frag`. Fragmentarium will load and compile the file, displaying the rendered output on your screen:
 
+    ![Screenshot render](https://github.com/user-attachments/assets/d06d480f-69b4-4c89-ade7-15f383a8315b)
 
 
 # Authors
