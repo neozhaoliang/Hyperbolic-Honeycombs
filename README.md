@@ -1,13 +1,13 @@
-> **Requirement**: This repository is already included in the official release of [FragM](https://github.com/3Dickulus/FragM). You can run the examples by installing FragM and navigating to `examples >> neozhaoliang`.
+> **Requirement**: This repository is included in the official release of [FragM](https://github.com/3Dickulus/FragM). You can run the examples by installing FragM and navigating to `examples >> neozhaoliang`.
 
 In this project, We will visualize hyperbolic [Coxeter groups](https://en.wikipedia.org/wiki/Coxeter_group) of varying ranks 3/4/5 and levels 1/2/3. The scenes can be categorized into two types:
 
 1. Tiling display: Show the tiling of hyperbolic honeycombs inside the space in the Poincaré ball and upper half-space models.
 2. Sphere packing display: Show the sphere packing on the ideal boundary. The complement of this sphere packing is called the limit set.
 
-The level of a Coxeter group $G$ is defined as the smallest non-negative integer $l$, such that after removing any $l$ vertices from its [Coxeter diagram](https://en.wikipedia.org/wiki/Coxeter%E2%80%93Dynkin_diagram), the remaining diagram is either finite or affine. As a result, finite (spherical) and affine (Euclidean) Coxeter groups have level 0.
+The level of a Coxeter group $G$ is defined as the smallest non-negative integer $l$, such that after removing any $l$ vertices from its [Coxeter diagram](https://en.wikipedia.org/wiki/Coxeter%E2%80%93Dynkin_diagram), all connected components of the remaining diagram are finite or affine. For example, finite (spherical) and affine (Euclidean) Coxeter groups have level 0.
 
-It's proved in a paper by George Maxwell that Coxeter groups of level 1/2 are both hyperbolic. For level 1, the limit set is the ideal boundary and there is no sphere packing. For level 2, there is a maximal sphere packing on the ideal boundary, meaning the spheres do not intersect and fill the boundary. For levels higher than 2, the spheres still fill the boundary, but they will overlap. For further mathematical details, please refer to the paper by Chen and Labbé ([Chen and Labbé's paper](https://arxiv.org/abs/1310.8608)) on the connection between hyperbolic geometry and ball packings.
+It's proved in a paper by [George Maxwell](https://www.sciencedirect.com/science/article/pii/0021869382903180) that Coxeter groups of level 1 or 2 are both hyperbolic. For level 1, the limit set is the ideal boundary and there is no sphere packing. For level 2, there is a maximal sphere packing on the ideal boundary, meaning the spheres do not intersect and fill the boundary. For levels higher than 2, the spheres still fill the boundary, but they will overlap. For further mathematical details, please refer to the paper by Chen and Labbé ([Chen and Labbé's paper](https://arxiv.org/abs/1310.8608)) on the connection between hyperbolic geometry and sphere packings.
 
 ## 3D Euclidean tilings (rank = 4, level = 0)
 
@@ -25,7 +25,7 @@ From left to right: compact tiling, paracompact tiling (with ideal vertices on t
 
 <img src="https://user-images.githubusercontent.com/23307174/137573698-507e1abc-bb23-4a9c-b5ac-0a4bb12e6527.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137573695-eb58bf45-dbac-499e-a04e-c74a967f0a42.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/23307174/137573687-7cdfa82c-6129-4599-bc61-ec98f0c838d2.png" width="30%"></img>
 
-The level 2 case, shown in the rightmost image, appears less attractive. However, it can be observed that each cell, which is an unbounded triangle, intersects the ideal boundary at an arc. All these arcs pack the entire boundary circle. This phenomenon generalizes to three and four-dimensional spaces. If the group has level 2, each cell in the honeycomb will intersect the boundary at a disk or sphere, and these disks/spheres pack the entire boundary.
+The level 2 case in the rightmost image appears less attractive. However, it can be observed that each cell, which is an unbounded triangle, intersects the ideal boundary at an arc. All these arcs pack the entire boundary circle. This phenomenon generalizes to three and four-dimensional spaces. If the group has level 2, each cell in the honeycomb will intersect the boundary at a disk/sphere, and these disks/spheres pack the entire boundary.
 
 ## 3D hyperbolic honeycombs (rank = 4, level = 1, 2)
 
@@ -104,8 +104,6 @@ These are the ball packings in the next section but shown in the Poincaré unit 
 
 
 ## Fractals from 3D ball clusters (rank = 5, level = 3)
-
-Note some Coxeter diagrams for the rendered images below are missing (I forgot them).
 
 |     |     |
 |:---:|:---:|
