@@ -116,9 +116,9 @@ These are the ball packings in the next section but shown in the Poincaré unit 
 ![333-433-224-2](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/93bcd53c-0154-4ab7-8159-faedf2585010)|![333-442-343-3(3D)](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/1f4e99f8-a7d8-46e9-98d4-d95ae4f8105a)|
 
 
-# How to use
+# How to use this project in FragM
 
-please refer to the [official Wiki page](https://github.com/3Dickulus/FragM/wiki) for more detailed information.
+Please refer to the [official Wiki page](https://github.com/3Dickulus/FragM/wiki) of FragM for more detailed information on how to use it.
 
 + Download or clone this repository to your local machine.
 
