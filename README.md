@@ -30,7 +30,7 @@ The level 2 case in the rightmost image appears less attractive. However, it can
 ## 3D hyperbolic honeycombs (rank = 4, level = 1, 2)
 
 
-The code used to render the following image is [here](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/blob/main/src/Hyperoblic-Honeycombs-Kn2cr11.frag). It can render any hyperbolic group of rank 4 that contains a rank 3 finite subgraph of rank 3. (Images with Poincaré disks packing the boundary are of level 2)
+The code used to render the following image is [here](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/blob/main/src/Hyperoblic-Honeycombs-Kn2cr11.frag). It can render any hyperbolic group of rank 4 that has all labels $m_{s,t}<\infty$, and contains a rank 3 finite subgraph of rank 3. (Images with Poincaré disks packing the boundary are of level 2)
 
 |     |     |
 |:---:|:---:|
