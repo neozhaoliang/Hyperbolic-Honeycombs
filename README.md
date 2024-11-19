@@ -1,13 +1,13 @@
 > **Requirement**: This repository is included in the official release of [FragM](https://github.com/3Dickulus/FragM). You can run the examples by installing FragM and navigating to `examples >> neozhaoliang`.
 
-In this project, We will visualize hyperbolic [Coxeter groups](https://en.wikipedia.org/wiki/Coxeter_group) of varying ranks 3/4/5 and levels 1/2/3. The scenes can be categorized into two types:
+In this project,  we’ll explore visualizations of hyperbolic [Coxeter groups](https://en.wikipedia.org/wiki/Coxeter_group) across various ranks (3, 4, and 5) and levels (1, 2, and 3). The visualizations are divided into two main types:
 
-1. Tiling display: Show the tiling of hyperbolic honeycombs inside the space in the Poincaré ball and upper half-space models.
-2. Sphere packing display: Show the sphere packing on the ideal boundary. The complement of this sphere packing is called the limit set.
+1. Tiling display: this showcases the tiling of hyperbolic honeycombs within the space using the Poincaré ball and upper half-space models
+2. Sphere packing display: This illustrates the sphere packing on the ideal boundary. The complement of this packing is known as the limit set.
 
-The level of a Coxeter group $G$ is defined as the smallest non-negative integer $l$, such that after removing any $l$ vertices from its [Coxeter diagram](https://en.wikipedia.org/wiki/Coxeter%E2%80%93Dynkin_diagram), all connected components of the remaining diagram are finite or affine. For example, finite (spherical) and affine (Euclidean) Coxeter groups have level 0.
+The level of a Coxeter group $G$ is defined as the smallest non-negative integer $l$ such that after removing any $l$ vertices from its [Coxeter diagram](https://en.wikipedia.org/wiki/Coxeter%E2%80%93Dynkin_diagram), all the connected components of the remaining diagram are either finite or affine. For example, finite (spherical) and affine (Euclidean) Coxeter groups both have level 0.
 
-It's proved in a paper by [George Maxwell](https://www.sciencedirect.com/science/article/pii/0021869382903180) that Coxeter groups of level 1 or 2 are both hyperbolic. For level 1, the limit set is the ideal boundary and there is no sphere packing. For level 2, there is a maximal sphere packing on the ideal boundary, meaning the spheres do not intersect and fill the boundary. For levels higher than 2, the spheres still fill the boundary, but they will overlap. For further mathematical details, please refer to the paper by Chen and Labbé ([Chen and Labbé's paper](https://arxiv.org/abs/1310.8608)) on the connection between hyperbolic geometry and sphere packings.
+[George Maxwell's work](https://www.sciencedirect.com/science/article/pii/0021869382903180) establishes that Coxeter groups of level 1 or 2 are hyperbolic. For level 1 groups, the limit set is the whole ideal boundary, and no sphere packing is observed. In contrast, level 2 groups exhibit a maximal sphere packing on the ideal boundary, this means the spheres fill the boundary without intersecting. At levels higher than 2, the spheres still fill the boundary but begin to overlap.. For further mathematical details, please refer to the paper by Chen and Labbé ([Chen and Labbé's paper](https://arxiv.org/abs/1310.8608)) on the connection between hyperbolic geometry and sphere packings.
 
 ## 3D Euclidean tilings (rank = 4, level = 0)
 
