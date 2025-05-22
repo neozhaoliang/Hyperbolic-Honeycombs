@@ -43,6 +43,7 @@ The code used to render the following image is [here](https://github.com/neozhao
 |![532233](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/6ccfdf8b-b5d3-4794-92c5-6e75ae6c5464)|![365-1101](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/533b37a3-18ad-44b7-94ec-c7b4b4a45538)|
 |![445-0100](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/2527448a-db7e-439f-8adf-0009e12f3e0e)|![454-1101(1)](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/a70de753-88a4-4b4b-8239-ef5b9f8ccf3b)|
 ![535-1000](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/ebeed494-72a4-4936-9aff-560172853136)|![522333](https://github.com/neozhaoliang/Hyperbolic-Honeycombs/assets/23307174/99742433-98e3-4e67-a50f-c0c63f750455)|
+|![534-1100](https://github.com/user-attachments/assets/6261eeba-5f32-4cc0-9f7a-83ba9aa90843)||
 
 
 
