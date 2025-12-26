@@ -67,8 +67,6 @@ In this case, there will be overlapping circles:
 
 ### Circle packings from platonic solids
 
-In order (left to right, top to bottom): tetrahedron, cube, octahedron, dodecahedron, icosahedron.
-
 [Shadertoy Live](https://www.shadertoy.com/view/7dcXWs)
 
 |   |   |
@@ -162,3 +160,4 @@ Please refer to the [official Wiki page](https://github.com/3Dickulus/FragM/wiki
 # License
 
 The .frag code written for FragM in this repository is licensed under the [GPL License](./LICENSE). The images demonstrated by the authors in this project, including those uploaded by the authors on other platforms such as Twitter, are licensed under the [CC BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
