@@ -116,6 +116,8 @@ These are the ball packings in the next section but shown in the Poincaré unit 
 
 ## Fractals from 3D ball clusters (rank = 5, level = 3)
 
+All of the groups below contain an affine subgroup of rank 3, so you can see that they all have translational invariance. These groups are relatively convenient to work with computationally.
+
 |     |     |
 |:---:|:---:|
 |![236-444-322-5](https://neozhaoliang.github.io/assets/236-444-322-5.png)|![244-223-22inf-inf](https://neozhaoliang.github.io/assets/244-223-22inf-inf.png)|
@@ -160,4 +162,5 @@ Please refer to the [official Wiki page](https://github.com/3Dickulus/FragM/wiki
 # License
 
 The .frag code written for FragM in this repository is licensed under the [GPL License](./LICENSE). The images demonstrated by the authors in this project, including those uploaded by the authors on other platforms such as Twitter, are licensed under the [CC BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
 
